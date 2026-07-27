@@ -1,0 +1,4 @@
+ID,Ley,Articulo,Objetivo,Stakeholder,ID-EV,ID-RF,Tipo,ID-CU,ID-HU,ID-CA,ID-Componente,ID-Mockup
+TRZ-001,LOPDP,Consentimiento,Proteger datos personales del paciente,Paciente,EV2-ENT-03,RF-20,RF,CU-09,HU-020,CA-020,Modulo_Privacidad,MU-17
+TRZ-002,LOPDP,Acceso autorizado,Controlar acceso a informacion sensible,Fisioterapeuta,EV2-ENT-01,RF-01,RF,CU-01,HU-001,CA-001,Modulo_Autenticacion,MU-01
+TRZ-003,LOPDP,Confidencialidad,Limitar consulta de datos terapeuticos,Fisioterapeuta,EV2-ENT-01,RNF-06,RNF,CU-01,HU-001,CA-001,Modulo_Seguridad,MU-01
