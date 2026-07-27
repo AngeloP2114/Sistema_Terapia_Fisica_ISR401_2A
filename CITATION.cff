@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "Si utiliza este repositorio académico, cite este trabajo."
+title: "Sistema Inteligente de Control y Seguimiento de Terapia Física"
+version: "2A-v1.0"
+date-released: "2026-07-29"
+authors:
+  - family-names: "Zambrano"
+    given-names: "Angelo"
+  - family-names: "Contreras"
+    given-names: "Kevin"
+repository-code: "https://github.com/AngeloP2114/Sistema_Terapia_Fisica_ISR401_2A"
+license: "MIT AND CC-BY-4.0"
+keywords:
+  - "Ingeniería de Requerimientos"
+  - "Terapia Física"
+  - "ERS"
+  - "SRS"
+  - "MVP"
+  - "Trazabilidad"
