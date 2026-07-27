@@ -1,0 +1,6 @@
+# checksums.sha256
+# Archivo de verificación SHA-256 de evidencias multimedia del proyecto SICST.
+# Este archivo será actualizado con los hashes reales de videos, audios, fotografías y evidencias multimedia antes del corte final.
+
+# Comando recomendado para generar los hashes:
+# sha256sum 02_Evidencias/Video/*.mp4 02_Evidencias/Audio/*.mp3 02_Evidencias/Fotos_Entorno/*.jpg 02_Evidencias/Cuestionario/Fotos_Aplicacion/*.jpg 02_Evidencias/Validacion_Walkthrough/*.mp4 > checksums.sha256
