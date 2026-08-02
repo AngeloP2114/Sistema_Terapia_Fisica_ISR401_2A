@@ -1,0 +1,33 @@
+﻿ID_RF,Requisito,MoSCoW,Kano,Valor_Negocio,Urgencia,Riesgo,Esfuerzo,WSJF,Justificacion
+RF-01,Autenticar usuarios,Must,Básico,10,10,10,3,10.00,"Función esencial para la operación, seguridad o continuidad del tratamiento."
+RF-02,Gestionar roles y permisos,Must,Básico,10,10,10,3,10.00,"Función esencial para la operación, seguridad o continuidad del tratamiento."
+RF-03,Registrar datos generales del paciente,Must,Básico,10,10,8,3,9.33,"Función esencial para la operación, seguridad o continuidad del tratamiento."
+RF-04,Registrar motivo de consulta,Must,Básico,9,9,8,3,8.67,"Función esencial para la operación, seguridad o continuidad del tratamiento."
+RF-05,Registrar antecedentes terapéuticos,Must,Básico,9,9,8,3,8.67,"Función esencial para la operación, seguridad o continuidad del tratamiento."
+RF-06,Clasificar condición clínica,Should,Desempeño,8,7,7,4,5.50,Aporta valor relevante y debe implementarse después del núcleo obligatorio.
+RF-07,Clasificar nivel de gravedad,Should,Desempeño,8,7,7,4,5.50,Aporta valor relevante y debe implementarse después del núcleo obligatorio.
+RF-08,Registrar signos vitales,Must,Básico,9,9,8,3,8.67,"Función esencial para la operación, seguridad o continuidad del tratamiento."
+RF-09,Registrar rangos de movimiento,Must,Básico,9,9,8,5,5.20,"Función esencial para la operación, seguridad o continuidad del tratamiento."
+RF-10,Registrar pruebas terapéuticas,Must,Básico,9,9,8,5,5.20,"Función esencial para la operación, seguridad o continuidad del tratamiento."
+RF-11,Registrar nivel de dolor,Must,Básico,9,9,8,3,8.67,"Función esencial para la operación, seguridad o continuidad del tratamiento."
+RF-12,Registrar nivel de fatiga,Must,Básico,9,9,8,3,8.67,"Función esencial para la operación, seguridad o continuidad del tratamiento."
+RF-13,Registrar capacidad funcional,Must,Básico,9,9,8,3,8.67,"Función esencial para la operación, seguridad o continuidad del tratamiento."
+RF-14,Registrar observaciones por sesión,Must,Básico,9,9,8,3,8.67,"Función esencial para la operación, seguridad o continuidad del tratamiento."
+RF-15,Crear plan terapéutico personalizado,Must,Básico,10,9,8,5,5.40,"Función esencial para la operación, seguridad o continuidad del tratamiento."
+RF-16,Gestionar catálogo de ejercicios,Must,Desempeño,9,9,8,5,5.20,"Función esencial para la operación, seguridad o continuidad del tratamiento."
+RF-17,Asignar rutina terapéutica,Must,Básico,10,9,8,5,5.40,"Función esencial para la operación, seguridad o continuidad del tratamiento."
+RF-18,Mostrar guías visuales,Must,Desempeño,9,9,8,5,5.20,"Función esencial para la operación, seguridad o continuidad del tratamiento."
+RF-19,Iniciar sesión remota de ejercicios,Should,Desempeño,8,7,7,4,5.50,Aporta valor relevante y debe implementarse después del núcleo obligatorio.
+RF-20,Capturar movimiento con cámara,Must,Básico,10,10,10,5,6.00,"Función esencial para la operación, seguridad o continuidad del tratamiento."
+RF-21,Analizar movimiento del paciente,Should,Desempeño,8,7,7,6,3.67,Aporta valor relevante y debe implementarse después del núcleo obligatorio.
+RF-22,Detectar errores de postura,Should,Desempeño,8,7,7,6,3.67,Aporta valor relevante y debe implementarse después del núcleo obligatorio.
+RF-23,Contar repeticiones correctas,Should,Desempeño,8,7,7,6,3.67,Aporta valor relevante y debe implementarse después del núcleo obligatorio.
+RF-24,Rechazar repeticiones incorrectas,Should,Desempeño,8,7,7,6,3.67,Aporta valor relevante y debe implementarse después del núcleo obligatorio.
+RF-25,Generar retroalimentación automática,Should,Atractivo,8,7,7,6,3.67,Aporta valor relevante y debe implementarse después del núcleo obligatorio.
+RF-26,Registrar evidencia de cumplimiento,Must,Básico,9,9,8,3,8.67,"Función esencial para la operación, seguridad o continuidad del tratamiento."
+RF-27,Visualizar progreso terapéutico,Must,Desempeño,9,9,8,3,8.67,"Función esencial para la operación, seguridad o continuidad del tratamiento."
+RF-28,Generar alertas terapéuticas,Must,Básico,10,10,10,5,6.00,"Función esencial para la operación, seguridad o continuidad del tratamiento."
+RF-29,Generar recomendaciones de seguimiento,Should,Desempeño,8,7,7,4,5.50,Aporta valor relevante y debe implementarse después del núcleo obligatorio.
+RF-30,Generar reportes del tratamiento,Must,Básico,10,9,8,5,5.40,"Función esencial para la operación, seguridad o continuidad del tratamiento."
+RF-31,Enviar recordatorios automáticos,Must,Básico,9,9,8,3,8.67,"Función esencial para la operación, seguridad o continuidad del tratamiento."
+RF-32,Consultar avance autorizado,Could,Atractivo,6,4,4,3,4.67,Mejora complementaria que no bloquea los flujos principales.
