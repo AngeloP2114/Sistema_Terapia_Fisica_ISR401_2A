@@ -1,0 +1,13 @@
+ID_Item,Dimension,Pregunta,Escala
+Q01,Necesidad,La explicación presentada es necesaria para comprender la salida del sistema,1-5
+Q02,Claridad,La explicación utiliza un lenguaje claro y comprensible,1-5
+Q03,Utilidad,La explicación ayuda a decidir qué acción realizar,1-5
+Q04,Confianza,La explicación aumenta mi confianza para usar el sistema,1-5
+Q05,Extensión,La cantidad de información presentada es adecuada,1-5
+Q06,Oportunidad,La explicación aparece en el momento adecuado,1-5
+Q07,Comprensión,Puedo identificar por qué el sistema generó esta salida,1-5
+Q08,Acción,Puedo identificar qué acción segura recomienda el sistema,1-5
+Q09,Privacidad,Comprendo qué datos se utilizan y con qué finalidad,1-5
+Q10,Control,El sistema permite solicitar revisión o rechazar la acción automática,1-5
+Q11,Satisfacción,En general estoy satisfecho con la explicación presentada,1-5
+Q12,Comentario,Indique qué información agregaría o eliminaría,Texto abierto
