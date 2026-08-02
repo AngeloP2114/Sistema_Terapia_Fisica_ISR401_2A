@@ -1,0 +1,3 @@
+NO RENOMBRAR ESTE ARCHIVO COMO osf_registration.pdf.
+
+El archivo oficial osf_registration.pdf debe descargarse desde OSF después de registrar el protocolo. Debe mostrar una URL persistente y un sello temporal anterior a la ejecución del estudio. No debe fabricarse un comprobante.

@@ -1,22 +1,19 @@
 # Componente experimental
 
-Esta carpeta contiene los artefactos del componente empírico del proyecto SICST.
-
-El estudio empírico se orienta a la elicitación y validación de requisitos de explicabilidad para el componente inteligente del sistema, relacionado con el seguimiento de ejercicios terapéuticos, privacidad, retroalimentación al usuario y comprensión de resultados.
-
-## Archivos y subcarpetas esperadas
-
-- `protocolo.pdf`: protocolo experimental del estudio.
-- `osf_registration.pdf`: comprobante del registro previo en OSF.
-- `instrumentos/`: guiones, cuestionarios, consentimientos y plantillas usadas.
-- `prompts_llm/`: consignas utilizadas con modelos LLM, si aplica.
-- `resultados/`: datos crudos, datos procesados, tablas y figuras.
-- `scripts_analisis/`: scripts en Python o R para reproducir tablas y gráficos.
+Esta carpeta contiene los artefactos del componente empírico del proyecto **Sistema Inteligente de Control y Seguimiento de Terapia Física (SICST)**.
 
 ## Enfoque seleccionado
 
-Enfoque 3: Elicitar y validar requisitos de explicabilidad para el componente de IA del sistema.
+Enfoque 3: elicitación y validación de requisitos de explicabilidad para el componente de IA del sistema.
 
-## Relación con el proyecto
+## Contenido
 
-El componente experimental permite validar qué tipos de explicaciones necesitan los usuarios técnicos y no técnicos cuando el sistema analiza ejercicios, genera retroalimentación o solicita permisos relacionados con cámara y datos personales.
+- `protocolo.pdf`: protocolo experimental de la Entrega 3.
+- `instrumentos/`: guion, cuestionario, rúbrica, consentimiento y plantilla de trazabilidad.
+- `prompts_llm/`: registro transparente del uso de LLM como apoyo de redacción, sin sustituir evidencia primaria.
+- `resultados/`: plantillas anonimizadas; los resultados reales se incorporarán en la Entrega 4.
+- `scripts_analisis/`: scripts y dependencias para reproducir tablas y resúmenes.
+
+## Registro OSF
+
+El archivo oficial `osf_registration.pdf` debe provenir directamente de OSF y contener la URL persistente y el sello temporal anterior a la ejecución del estudio. No se incluye un comprobante artificial.
