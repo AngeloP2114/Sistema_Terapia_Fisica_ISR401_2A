@@ -1,18 +1,13 @@
 # Publicación
 
-Esta carpeta contiene los artefactos relacionados con la preparación de publicación académica del proyecto SICST.
+Esta carpeta reúne los artefactos de preparación de publicación del proyecto SICST.
 
-## Archivos esperados
+## Archivos
 
-- manuscrito_borrador.pdf
-- dataset_zenodo/
+- `manuscrito_borrador.pdf`: borrador de artículo científico.
+- `analisis_revistas.md`: comparación de una alternativa con APC y una alternativa híbrida/suscripción sin APC obligatorio.
+- `dataset_Zenodo/`: paquete anonimizado y reproducible para depósito posterior en Zenodo.
 
-## Descripción
+## Protección de datos
 
-El manuscrito borrador resume el problema, metodología, resultados preliminares, discusión inicial y preparación del estudio para una posible publicación académica.
-
-La carpeta `dataset_zenodo/` contiene el paquete de datos preparado para su depósito en Zenodo, incluyendo transcripciones anonimizadas, respuestas del cuestionario, requisitos etiquetados, matriz de trazabilidad, scripts y diccionario de datos.
-
-## Nota de evidencia
-
-Los resultados y afirmaciones del manuscrito deben estar respaldados por datos primarios del trabajo de campo, cuestionario, walkthrough y análisis de requisitos.
+No deben subirse a esta carpeta consentimientos, firmas, cédulas, rostros, audios o videos identificables. Estos materiales permanecen en la zona restringida.
