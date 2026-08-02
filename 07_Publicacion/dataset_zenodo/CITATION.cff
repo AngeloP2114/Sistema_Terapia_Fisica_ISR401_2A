@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+title: "Dataset anonimizado del proyecto SICST"
+message: "Cite este conjunto de datos y el repositorio del proyecto."
+type: dataset
+authors:
+  - family-names: "Morán Pilaguano"
+    given-names: "Frixon Fernando"
+  - family-names: "Contreras Chávez"
+    given-names: "Kevin Germán"
+  - family-names: "Zambrano Moya"
+    given-names: "Angelo Paul"
+version: "1.0"
+date-released: "2026-08-02"
+repository-code: "https://github.com/AngeloP2114/Sistema_Terapia_Fisica_ISR401_2A"
+license: "CC-BY-4.0"

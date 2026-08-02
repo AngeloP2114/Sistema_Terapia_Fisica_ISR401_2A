@@ -1,0 +1,5 @@
+Creative Commons Attribution 4.0 International (CC BY 4.0)
+
+El conjunto de datos anonimizado puede compartirse y adaptarse con atribución adecuada. Esta licencia no se aplica a consentimientos, firmas, rostros, voces ni otros datos identificables, los cuales no forman parte del paquete público.
+
+Texto de la licencia: https://creativecommons.org/licenses/by/4.0/
