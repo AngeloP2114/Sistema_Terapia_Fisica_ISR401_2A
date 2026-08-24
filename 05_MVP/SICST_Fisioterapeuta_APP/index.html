@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SICST | Fisioterapeuta</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<div class="app-shell">
+  <aside class="sidebar">
+    <div class="brand">
+      <div class="brand-mark"><span data-icon="doctor"></span></div>
+      <div><h1>SICST Pro</h1><p>Panel fisioterapeuta</p></div>
+    </div>
+    <nav class="main-nav">
+      <button class="nav-item active" data-view="dashboard"><span data-icon="home"></span>Dashboard</button>
+      <button class="nav-item" data-view="pacientes"><span data-icon="patient"></span>Pacientes</button>
+      <button class="nav-item" data-view="evaluacion"><span data-icon="file"></span>Evaluación</button>
+      <button class="nav-item" data-view="ejercicios"><span data-icon="activity"></span>Ejercicios</button>
+      <button class="nav-item" data-view="rutinas"><span data-icon="list"></span>Rutinas</button>
+      <button class="nav-item" data-view="seguimiento"><span data-icon="check"></span>Seguimiento</button>
+      <button class="nav-item" data-view="alertas"><span data-icon="alert"></span>Alertas</button>
+      <button class="nav-item" data-view="reportes"><span data-icon="chart"></span>Reportes</button>
+      <button class="nav-item" data-view="privacidad"><span data-icon="shield"></span>Privacidad</button>
+    </nav>
+    <div class="side-card"><strong>Modo demo</strong><span><span class="status-dot"></span>Datos locales activos</span><small>Funciona sin base de datos usando localStorage.</small></div>
+  </aside>
+
+  <main class="content">
+    <header class="topbar">
+      <div><p class="eyebrow">Sistema Inteligente de Control y Seguimiento de Terapia Física</p><h2 id="pageTitle">Dashboard</h2></div>
+      <div class="top-actions">
+        <button class="btn ghost" id="btnExport"><span data-icon="download"></span>Exportar</button>
+        <button class="btn ghost" id="btnReset"><span data-icon="refresh"></span>Restaurar demo</button>
+        <button class="btn primary" data-open-modal="patient"><span data-icon="plus"></span>Nuevo paciente</button>
+      </div>
+    </header>
+
+    <section class="view active" id="dashboardView">
+      <div class="stats-grid" id="statsGrid"></div>
+      <div class="grid-2">
+        <article class="panel"><div class="panel-head"><div><h3>Progreso semanal</h3><p>Sesiones registradas por día.</p></div><span class="badge">Semana actual</span></div><div class="chart-box"><canvas id="sessionsChart"></canvas></div></article>
+        <article class="panel"><div class="panel-head"><div><h3>Dolor promedio</h3><p>Evolución por sesiones recientes.</p></div></div><div class="chart-box"><canvas id="painChart"></canvas></div></article>
+      </div>
+      <div class="grid-2">
+        <article class="panel"><div class="panel-head"><div><h3>Alertas importantes</h3><p>Situaciones que requieren atención.</p></div></div><div class="alert-list" id="dashboardAlerts"></div></article>
+        <article class="panel"><div class="panel-head"><div><h3>Pacientes recientes</h3><p>Últimos registros del sistema.</p></div></div><div class="note-list" id="recentPatients"></div></article>
+      </div>
+    </section>
+
+    <section class="view" id="pacientesView">
+      <div class="toolbar">
+        <label class="searchbox"><span data-icon="search"></span><input id="patientSearch" type="search" placeholder="Buscar paciente..."></label>
+        <select id="patientStatusFilter"><option value="Todos">Estado: todos</option><option>Activo</option><option>En revisión</option><option>Alta</option></select>
+        <button class="btn primary" data-open-modal="patient"><span data-icon="plus"></span>Registrar paciente</button>
+      </div>
+      <div class="card-grid" id="patientGrid"></div>
+    </section>
+
+    <section class="view" id="evaluacionView">
+      <div class="grid-2">
+        <article class="panel"><div class="panel-head"><div><h3>Registrar evaluación inicial</h3><p>Motivo, dolor, fatiga, movilidad y observaciones.</p></div></div>
+          <form id="evaluationForm" class="form-grid">
+            <label>Paciente<select id="evalPatient" required></select></label>
+            <label>Motivo de consulta<input id="evalReason" required placeholder="Dolor lumbar, rodilla..."></label>
+            <label>Dolor inicial<input id="evalPain" type="number" min="0" max="10" value="4"></label>
+            <label>Fatiga inicial<input id="evalFatigue" type="number" min="0" max="10" value="3"></label>
+            <label>Rango de movimiento<input id="evalMobility" placeholder="Ej. 70% movilidad"></label>
+            <label>Gravedad<select id="evalSeverity"><option>Leve</option><option>Moderada</option><option>Alta</option></select></label>
+            <label class="full">Observaciones<textarea id="evalNotes" placeholder="Observaciones del fisioterapeuta..."></textarea></label>
+            <button class="btn primary full" type="submit"><span data-icon="save"></span>Guardar evaluación</button>
+          </form>
+        </article>
+        <article class="panel"><div class="panel-head"><div><h3>Evaluaciones registradas</h3><p>Historial clínico inicial.</p></div></div><div class="note-list" id="evaluationList"></div></article>
+      </div>
+    </section>
+
+    <section class="view" id="ejerciciosView">
+      <div class="toolbar">
+        <label class="searchbox"><span data-icon="search"></span><input id="exerciseSearch" type="search" placeholder="Buscar ejercicio..."></label>
+        <select id="exerciseZoneFilter"><option value="Todos">Zona: todas</option><option>Lumbar</option><option>Rodilla</option><option>Hombro</option><option>Cadera</option><option>General</option></select>
+        <button class="btn primary" data-open-modal="exercise"><span data-icon="plus"></span>Nuevo ejercicio</button>
+      </div>
+      <div class="card-grid" id="exerciseGrid"></div>
+    </section>
+
+    <section class="view" id="rutinasView">
+      <div class="grid-2">
+        <article class="panel"><div class="panel-head"><div><h3>Asignar rutina</h3><p>Ejercicios, series, repeticiones e indicaciones.</p></div></div>
+          <form id="routineForm" class="form-grid">
+            <label>Paciente<select id="routinePatient" required></select></label>
+            <label>Ejercicio<select id="routineExercise" required></select></label>
+            <label>Series<input id="routineSets" type="number" min="1" value="3"></label>
+            <label>Repeticiones<input id="routineReps" type="number" min="1" value="10"></label>
+            <label>Frecuencia<select id="routineFreq"><option>Diaria</option><option>3 veces por semana</option><option>2 veces por semana</option><option>Según indicación</option></select></label>
+            <label>Prioridad<select id="routinePriority"><option>Alta</option><option>Media</option><option>Baja</option></select></label>
+            <label class="full">Indicaciones<textarea id="routineNotes" placeholder="Realizar lentamente, detener si hay dolor elevado..."></textarea></label>
+            <button class="btn primary full" type="submit"><span data-icon="save"></span>Asignar rutina</button>
+          </form>
+        </article>
+        <article class="panel"><div class="panel-head"><div><h3>Rutinas asignadas</h3><p>Plan terapéutico activo.</p></div></div><div class="note-list" id="routineList"></div></article>
+      </div>
+    </section>
+
+    <section class="view" id="seguimientoView">
+      <div class="grid-2">
+        <article class="panel"><div class="panel-head"><div><h3>Registrar seguimiento</h3><p>Dolor, fatiga, cumplimiento y evidencia.</p></div></div>
+          <form id="sessionForm" class="form-grid">
+            <label>Paciente<select id="sessionPatient" required></select></label>
+            <label>Rutina<select id="sessionRoutine" required></select></label>
+            <label>Dolor reportado<input id="sessionPain" type="number" min="0" max="10" value="3"></label>
+            <label>Fatiga reportada<input id="sessionFatigue" type="number" min="0" max="10" value="3"></label>
+            <label>Cumplimiento<select id="sessionStatus"><option>Completada</option><option>Completada con dificultad</option><option>No completada</option><option>Requiere revisión</option></select></label>
+            <label>Evidencia<select id="sessionEvidence"><option>Sin evidencia</option><option>Foto autorizada</option><option>Video autorizado</option><option>Reporte verbal</option></select></label>
+            <label class="full">Observaciones<textarea id="sessionNotes"></textarea></label>
+            <button class="btn primary full" type="submit"><span data-icon="save"></span>Guardar seguimiento</button>
+          </form>
+        </article>
+        <article class="panel"><div class="panel-head"><div><h3>Sesiones recientes</h3><p>Actividad registrada por paciente.</p></div></div><div class="note-list" id="sessionList"></div></article>
+      </div>
+    </section>
+
+    <section class="view" id="alertasView">
+      <div class="toolbar"><button class="btn secondary" id="btnGenerateAlerts"><span data-icon="bell"></span>Generar alertas</button><button class="btn ghost" id="btnReviewAll"><span data-icon="check"></span>Marcar revisadas</button></div>
+      <div class="panel"><div class="panel-head"><div><h3>Alertas terapéuticas</h3><p>Dolor alto, fatiga, incumplimiento o falta de progreso.</p></div></div><div class="alert-list" id="alertsList"></div></div>
+    </section>
+
+    <section class="view" id="reportesView">
+      <div class="toolbar"><select id="reportPatient"></select><button class="btn secondary" id="btnUpdateReports"><span data-icon="refresh"></span>Actualizar</button></div>
+      <div class="grid-2">
+        <article class="panel"><div class="panel-head"><div><h3>Dolor y fatiga</h3><p>Últimas sesiones del paciente.</p></div></div><div class="chart-box"><canvas id="reportLineChart"></canvas></div></article>
+        <article class="panel"><div class="panel-head"><div><h3>Cumplimiento</h3><p>Estado de rutinas registradas.</p></div></div><div class="chart-box"><canvas id="reportBarChart"></canvas></div></article>
+      </div>
+      <article class="panel"><h3>Resumen automático</h3><div id="reportSummary" class="notice"></div></article>
+    </section>
+
+    <section class="view" id="privacidadView">
+      <div class="grid-2">
+        <article class="panel"><h3>Consentimientos del paciente</h3><p>Control de cámara, multimedia y consulta autorizada.</p><div id="consentList" class="note-list"></div></article>
+        <article class="panel"><h3>Regla de uso</h3><div class="notice"><strong>Importante:</strong> el sistema es de apoyo al fisioterapeuta. No reemplaza criterio profesional, no prescribe tratamientos de forma autónoma y no debe guardar evidencias sin autorización.</div></article>
+      </div>
+    </section>
+  </main>
+</div>
+
+<div class="modal-backdrop" id="modalBackdrop">
+  <div class="modal">
+    <div class="modal-head"><h3 id="modalTitle">Modal</h3><button class="icon-btn" id="closeModal">×</button></div>
+    <form id="modalForm" class="modal-body"></form>
+  </div>
+</div>
+<div class="toast-stack"></div>
+<script src="js/app.js"></script>
+</body>
+</html>
