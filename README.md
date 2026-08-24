@@ -1,71 +1,272 @@
-# SICST - Sistema Inteligente de Control y Seguimiento de Terapia Física
+# SICST — Sistema Inteligente de Control y Seguimiento de Terapia Física
 
-Repositorio del Proyecto Fin de Curso correspondiente a la Entrega 3 (2A): Especificación de Requisitos completa + componente empírico.
+Repositorio final del Proyecto Integrador de Ingeniería de Requisitos — PE5.
 
-## Datos generales
-
-| Campo | Información |
-|---|---|
-| Universidad | Universidad Técnica Estatal de Quevedo |
-| Facultad | Facultad de Ciencias de la Computación |
-| Carrera | Software |
-| Asignatura | Ingeniería de Requerimientos ISR-401 |
-| Nivel | 4to Nivel |
-| Proyecto | Sistema Inteligente de Control y Seguimiento de Terapia Física |
-| Entrega | Entrega 3 (2A) |
-| Periodo académico | 2026-2027 |
+**Universidad:** Universidad Técnica Estatal de Quevedo  
+**Carrera:** Ingeniería de Software  
+**Asignatura:** Ingeniería de Requerimientos ISR-401  
+**Periodo académico:** 2026–2027  
 
 ## Integrantes
 
-| Integrante | Rol principal | Responsabilidades |
-|---|---|---|
-| Angelo Zambrano | Analista líder y responsable ERS/SRS | Consolidación del documento, requisitos funcionales y no funcionales, trazabilidad, priorización, MVP y publicación. |
-| Kevin Contreras | Responsable de evidencias y modelado | Trabajo de campo, consentimientos, entrevistas, cuestionario, walkthrough, documentos de organización, UML y apoyo en validación. |
+- Morán Pilaguano Frixon Fernando
+- Contreras Chávez Kevin Germán
+- Viteri García Jonathan Enrique
+- Zambrano Moya Angelo Paul
 
-## Resumen del dominio
+---
 
-El proyecto pertenece al dominio de salud y rehabilitación física. El sistema propuesto busca apoyar el control, seguimiento y validación de terapias físicas mediante el registro de pacientes, asignación de rutinas, seguimiento de dolor y fatiga, reportes de progreso, recordatorios, privacidad de datos y validación de ejercicios con apoyo de un componente inteligente.
+## Entregables principales PE5
 
-## Estructura del repositorio
+### 1. ERS/SRS final
 
-| Carpeta o archivo | Descripción |
-|---|---|
-| `01_ERS/` | Documento ERS/SRS completo, archivo fuente LaTeX y referencias bibliográficas. |
-| `02_Evidencias/` | Evidencias del trabajo de campo: consentimientos, videos, audios, cuestionario, fotos, documentos y walkthrough. |
-| `03_Modelado/` | Diagramas UML y mockups del sistema. |
-| `04_Trazabilidad/` | Matriz de trazabilidad extendida y priorización MoSCoW, Kano y WSJF. |
-| `05_MVP/` | Producto Mínimo Viable funcional y video de demostración. |
-| `06_Experimento/` | Protocolo experimental, instrumentos, resultados y scripts de análisis. |
-| `07_Publicacion/` | Manuscrito borrador y paquete de datos preparado para publicación. |
+El ERS/SRS consolidado del proyecto se encuentra en:
 
-## Documento ERS/SRS
+`01_ERS/ERS_SRS_SICST_PE5_FINAL.pdf`
 
-El documento principal se encuentra en:
+La carpeta `01_ERS/` contiene además la versión editable del documento.
 
-`01_ERS/ERS_SRS_2A_v1.0.pdf`
+---
 
-## MVP
+### 2. Informe Final PE5
 
-El prototipo funcional se encuentra en:
+PDF final:
 
-`05_MVP/`
+`PE5_Informe_Final/PE5_U5_PFC_Final_MORAN_CONTRERAS_VITERI_ZAMBRANO.pdf`
 
-Incluye una aplicación para pacientes y una aplicación para fisioterapeutas.
+Archivo fuente principal:
 
-## Evidencias
+`PE5_Informe_Final/main.tex`
 
-Las evidencias se organizan por tipo de artefacto dentro de `02_Evidencias/`, utilizando códigos de identificación para entrevistas, consentimientos, cuestionarios y sesiones de walkthrough.
+Bibliografía:
 
-## Reproducción del análisis
+`PE5_Informe_Final/references.bib`
 
-Los archivos de datos, tablas y scripts necesarios para reproducir el componente empírico se encuentran en:
+Figuras requeridas para la compilación:
 
-`06_Experimento/resultados/`
+`PE5_Informe_Final/figuras/`
 
-`06_Experimento/scripts_analisis/`
+---
+
+### 3. Matriz de trazabilidad final
+
+La matriz final PE5 se encuentra en:
+
+`04_Trazabilidad/`
+
+La cadena principal utilizada para la auditoría es:
+
+**Fuente → RF/RNF → CU → Clase UML → Estado → BDD → CP**
+
+La matriz final contiene 58 trazas correspondientes a requisitos funcionales, requisitos no funcionales generales y requisitos específicos de IA.
+
+---
+
+### 4. Evidencias
+
+Las evidencias del trabajo de campo se organizan en:
+
+`02_Evidencias/`
+
+Las evidencias originales que contienen datos identificables se almacenan dentro del contenedor cifrado:
+
+`02_Evidencias/00_Restringido/evidencias_restringidas.7z`
+
+El contenedor utiliza cifrado **AES-256**.
+
+Su integridad puede comprobarse mediante:
+
+`02_Evidencias/00_Restringido/checksum_evidencias_restringidas.sha256`
+
+La contraseña del contenedor no se publica en el repositorio y se entrega únicamente al docente mediante el medio institucional correspondiente.
+
+Las evidencias que permanecen públicamente accesibles deben estar anonimizadas, enmascaradas o libres de información personal identificable.
+
+---
+
+## Reproducción del Informe Final PE5
+
+El Informe Final PE5 fue generado desde LaTeX y puede reproducirse a partir de los archivos incluidos en este repositorio.
+
+### Compilador
+
+**XeLaTeX**
+
+### Archivo principal
+
+`PE5_Informe_Final/main.tex`
+
+### Comando de compilación
+
+Desde la raíz del repositorio ejecutar:
+
+```bash
+cd PE5_Informe_Final
+latexmk -xelatex -interaction=nonstopmode main.tex
+```
+
+Para eliminar los archivos auxiliares generados durante la compilación:
+
+```bash
+latexmk -c
+```
+
+### Dependencias
+
+Se requiere una distribución TeX compatible con **XeLaTeX** y la herramienta **latexmk**.
+
+Entre los principales paquetes utilizados se encuentran:
+
+- geometry
+- newtxtext
+- newtxmath
+- babel
+- graphicx
+- booktabs
+- longtable
+- tabularx
+- pdflscape
+- float
+- hyperref
+- microtype
+- cite
+- fancyhdr
+- setspace
+- titlesec
+- caption
+- lastpage
+
+### Bibliografía
+
+El archivo bibliográfico utilizado por el informe es:
+
+`PE5_Informe_Final/references.bib`
+
+### Figuras requeridas
+
+Las figuras utilizadas por `main.tex` se encuentran en:
+
+`PE5_Informe_Final/figuras/`
+
+Archivos principales:
+
+- `figuras/casos_uso_10_pe5.png`
+- `figuras/dfd_nivel1_pe5.png`
+
+---
+
+## Resultados de auditoría PE5
+
+La línea base final del proyecto contiene:
+
+- **33 requisitos funcionales (RF)**
+- **15 requisitos no funcionales generales (RNF)**
+- **10 requisitos no funcionales específicos de IA (RNF-IA)**
+- **15 restricciones de diseño**
+- **10 casos de uso**
+- **33 historias de usuario**
+- **33 escenarios BDD**
+- **33 casos de prueba asociados a los RF**
+- **58 trazas documentales totales**
+
+Resultados de las métricas de calidad:
+
+- **M1 — Completitud:** 100 %
+- **M2 — Consistencia:** 1,00 — 0/10 conflictos abiertos
+- **M3 — Verificabilidad:** 58/58 = 100 %
+- **M4 — Trazabilidad:** 33/33 = 100 % hacia adelante y 100 % hacia atrás
+- **M5 — Modificabilidad:** 13/5 = 2,60
+- **M6 — Corrección:** 0/58 = 0,000 defectos residuales por requisito
+
+---
+
+## Requisitos de Inteligencia Artificial
+
+El proyecto especifica dos componentes de IA:
+
+### IA-01 — Análisis de movimiento
+
+Componente destinado al análisis de la ejecución de ejercicios terapéuticos mediante información visual autorizada.
+
+La especificación contempla requisitos de:
+
+- rendimiento;
+- latencia;
+- precisión;
+- equidad;
+- explicabilidad;
+- privacidad;
+- consentimiento;
+- supervisión humana;
+- fallback;
+- monitoreo.
+
+### IA-02 — Priorización de alertas y recomendaciones
+
+Componente destinado al apoyo en la priorización de alertas y recomendaciones de seguimiento.
+
+La salida del componente es de apoyo y no sustituye la decisión profesional del fisioterapeuta.
+
+La especificación contempla:
+
+- precision y recall;
+- latencia;
+- equidad;
+- explicabilidad;
+- advertencia no diagnóstica;
+- control humano;
+- monitoreo.
+
+---
+
+## Estructura principal del repositorio
+
+- `01_ERS/` — ERS/SRS final consolidado.
+- `02_Evidencias/` — evidencias públicas, anonimizadas y restringidas.
+- `03_Modelado/` — diagramas UML, DFD y mockups.
+- `04_Trazabilidad/` — matriz de trazabilidad y priorización.
+- `05_MVP/` — Producto Mínimo Viable del sistema.
+- `06_Experimento/` — protocolo, instrumentos, ejecución controlada, datos y scripts de análisis.
+- `07_Publicacion/` — artefactos asociados a publicación académica.
+- `PE5_Informe_Final/` — Informe Final PE5 y código fuente LaTeX reproducible.
+
+---
+
+## Ejecución controlada de explicabilidad
+
+El ejercicio de explicabilidad incluido en PE5 corresponde a una **simulación controlada con datos sintéticos**.
+
+Los archivos de esta ejecución se mantienen separados de las evidencias obtenidas mediante trabajo de campo.
+
+La simulación se utiliza exclusivamente para ejercitar y reproducir el protocolo de evaluación de explicabilidad y no constituye validación clínica ni evidencia empírica con participantes reales.
+
+---
+
+## Privacidad y ética
+
+El proyecto aplica principios de:
+
+- consentimiento informado;
+- minimización de datos;
+- anonimización;
+- control de acceso;
+- confidencialidad;
+- cifrado de evidencias identificables;
+- trazabilidad;
+- supervisión profesional.
+
+Los archivos originales que contienen firmas, voces, rostros u otra información identificable no deben mantenerse públicamente accesibles sin protección.
+
+---
 
 ## Licencia
 
 El código fuente del MVP se publica bajo licencia MIT.
 
-Los documentos, evidencias anonimizadas y dataset académico se publican bajo licencia Creative Commons CC BY 4.0, respetando la privacidad de los participantes y las condiciones del consentimiento informado.
+Los documentos y artefactos académicos públicos se distribuyen respetando las condiciones correspondientes de propiedad intelectual, privacidad y consentimiento informado.
+
+---
+
+## Repositorio oficial
+
+https://github.com/AngeloP2114/Sistema_Terapia_Fisica_ISR401_2A
