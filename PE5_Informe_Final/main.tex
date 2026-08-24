@@ -48,9 +48,15 @@
 \end{titlepage}
 
 \section*{Resumen}\addcontentsline{toc}{section}{Resumen}
-El informe presenta el cierre PE5 del Sistema Inteligente de Control y Seguimiento de Terapia Física (SICST) en la asignatura Ingeniería de Requisitos. La integración parte del ERS/SRS corregido mediante inspección Fagan y control de cambios, y consolida 33 requisitos funcionales, 15 requisitos no funcionales generales, 15 restricciones de diseño, 10 casos de uso y 33 historias de usuario con criterios BDD y casos de prueba. La trazabilidad conecta fuente, requisito, caso de uso, clase UML, proceso DFD, estado, BDD y prueba, e incorpora una matriz final de 58 trazas. Se especifican dos componentes de inteligencia artificial: análisis de movimiento por visión por computadora y priorización de alertas y recomendaciones, ambos con requisitos medibles de rendimiento, equidad, explicabilidad, privacidad y supervisión humana. La auditoría M1-M6 obtiene 100 % de completitud, consistencia 1,00, 100 % de verificabilidad, 100 % de trazabilidad, modificabilidad media de 2,60 requisitos y 0,000 defectos residuales por requisito. El protocolo de explicabilidad se ejercita mediante una simulación controlada de dos rondas con seis perfiles por ronda. El cierre integra evidencia de campo, retrospectiva, responsabilidades del equipo y declaración de uso responsable de inteligencia artificial. Asimismo, se preservan los límites clínicos, legales y éticos aplicables al prototipo.
+El informe presenta el cierre PE5 del Sistema Inteligente de Control y Seguimiento de Terapia Física (SICST) en la asignatura Ingeniería de Requisitos. La integración parte del ERS/SRS corregido mediante inspección Fagan y control de cambios, y consolida 33 requisitos funcionales, 15 requisitos no funcionales generales, 15 restricciones de diseño, 10 casos de uso y 33 historias de usuario con criterios BDD y casos de prueba. La trazabilidad conecta fuente, requisito, caso de uso, clase UML, proceso DFD, estado, BDD y prueba, e incorpora una matriz final de 58 trazas. Se especifican dos componentes de inteligencia artificial: análisis de movimiento por visión por computadora y priorización de alertas y recomendaciones, ambos con requisitos medibles de rendimiento, equidad, explicabilidad, privacidad y supervisión humana. La auditoría M1-M6 obtiene 100 \% de completitud, consistencia 1,00, 100 \% de verificabilidad, 100 \% de trazabilidad, modificabilidad media de 2,60 requisitos y 0,000 defectos residuales por requisito. El protocolo de explicabilidad se ejercita mediante una simulación controlada de dos rondas con seis perfiles por ronda. El cierre integra evidencia de campo, retrospectiva, responsabilidades del equipo y declaración de uso responsable de inteligencia artificial. Asimismo, se preservan los límites clínicos, legales y éticos aplicables al prototipo.
+
+\textbf{Palabras clave:} ingeniería de requisitos; terapia física; trazabilidad; inteligencia artificial; explicabilidad; SICST.
+
 \section*{Abstract}\addcontentsline{toc}{section}{Abstract}
-This report presents the PE5 closing stage of the Intelligent Physical Therapy Control and Monitoring System (SICST) for the Requirements Engineering course. The integration starts from the ERS/SRS corrected through Fagan inspection and change control and consolidates 33 functional requirements, 15 general non-functional requirements, 15 design constraints, 10 use cases, and 33 user stories with BDD criteria and test cases. Traceability connects source, requirement, use case, UML class, DFD process, state, BDD, and test, and includes a final matrix of 58 trace links. Two artificial intelligence components are specified: computer-vision movement analysis and prioritization of alerts and recommendations, both with measurable requirements for performance, fairness, explainability, privacy, and human oversight. The M1-M6 audit obtains 100% completeness, consistency of 1.00, 100% verifiability, 100% traceability, an average modifiability impact of 2.60 requirements, and 0.000 residual defects per requirement. The explainability protocol is exercised through a controlled simulation of two rounds with six profiles per round. The closing package integrates field evidence, retrospective analysis, team responsibilities, and a responsible artificial intelligence use declaration, while maintaining professional supervision and explicit clinical boundaries. It also preserves the clinical, legal, and ethical boundaries applicable to the academic prototype and its documented scope.
+This report presents the PE5 closing stage of the Intelligent Physical Therapy Control and Monitoring System (SICST) for the Requirements Engineering course. The integration starts from the ERS/SRS corrected through Fagan inspection and change control and consolidates 33 functional requirements, 15 general non-functional requirements, 15 design constraints, 10 use cases, and 33 user stories with BDD criteria and test cases. Traceability connects source, requirement, use case, UML class, DFD process, state, BDD, and test, and includes a final matrix of 58 trace links. Two artificial intelligence components are specified: computer-vision movement analysis and prioritization of alerts and recommendations, both with measurable requirements for performance, fairness, explainability, privacy, and human oversight. The M1-M6 audit obtains 100\% completeness, consistency of 1.00, 100\% verifiability, 100\% traceability, an average modifiability impact of 2.60 requirements, and 0.000 residual defects per requirement. The explainability protocol is exercised through a controlled simulation of two rounds with six profiles per round. The closing package integrates field evidence, retrospective analysis, team responsibilities, and a responsible artificial intelligence use declaration, while maintaining professional supervision and explicit clinical boundaries. It also preserves the clinical, legal, and ethical boundaries applicable to the academic prototype and its documented scope.
+
+\textbf{Keywords:} requirements engineering; physical therapy; traceability; artificial intelligence; explainability; SICST.
+
 \clearpage
 \tableofcontents
 \clearpage
@@ -63,6 +69,8 @@ This report presents the PE5 closing stage of the Intelligent Physical Therapy C
 El SICST responde al problema de seguimiento limitado de pacientes que realizan parte de su rehabilitación fuera del centro terapéutico. La propuesta integra registro clínico, planificación de rutinas, seguimiento de dolor y fatiga, evidencias de cumplimiento, análisis de movimiento mediante cámara, alertas y reportes. El objetivo del cierre PE5 no es añadir funciones indiscriminadamente, sino convertir la línea base en un conjunto de artefactos verificables, trazables y reproducibles conforme a los criterios de calidad del curso y a las características esperadas de una especificación según ISO/IEC/IEEE 29148:2018 \cite{iso29148}.
 
 La calidad documental se interpreta con el modelo ISO/IEC 25010:2023 \cite{iso25010}. En un sistema que trata datos de salud y utiliza componentes inteligentes, la verificabilidad y la trazabilidad adquieren un peso especial: un requisito debe poder relacionarse con su fuente, diseño, comportamiento esperado y prueba; además, los componentes de IA necesitan umbrales explícitos, control humano, explicabilidad, evaluación por grupos y mecanismos de monitoreo \cite{chazette2022,holzinger2017}.
+
+El cierre también se encuadra en los procesos técnicos del ciclo de vida descritos por ISO/IEC/IEEE 15288:2023 e ISO/IEC/IEEE 12207:2017 \cite{iso15288,iso12207}. La estructuración, validación y gestión de requisitos se contrasta con Pohl, SWEBOK v4.0 y el temario CPRE Foundation Level del IREB \cite{pohl2025,swebok4,ireb330}; la gestión del cierre y de responsabilidades se apoya en los principios del PMBOK 7.ª edición \cite{pmbok7}. Para los componentes de IA se considera además el enfoque regulatorio basado en riesgo del Reglamento (UE) 2024/1689, sin presentar el prototipo académico como dispositivo médico certificado \cite{euai2024}.
 
 La versión evaluada en Entrega 3 mostró evidencia de campo fuerte, pero también problemas estructurales: ausencia de una fuente LaTeX reproducible en el repositorio, historias y criterios citados por la matriz sin existir como artefactos completos, mínimos incompletos de RNF y casos de uso, y una trazabilidad que no seguía la cadena exigida en PE5. El cierre corrige esos puntos, conserva la evidencia válida, incorpora la matriz conforme a la rúbrica y separa explícitamente la evidencia humana real de la simulación controlada usada para ejercitar el protocolo de explicabilidad.
 
@@ -626,11 +634,11 @@ Los resultados de M1--M6 se conservan junto con sus conteos base para evitar que
 \textbf{Métrica}&\textbf{Entrada auditable}&\textbf{Procedimiento de reproducción}&\textbf{Cuándo repetir}\\
 \midrule\endhead
 M1&Catálogo de 58 requisitos, 10 CU y 4 actores primarios.&Contar requisitos con ID, prioridad, fuente y criterio; contar CU especificados y actores con RF asociado.&Al crear, eliminar o renumerar requisitos, CU o actores.\\
-M2&\texttt{auditoria\_consistencia\_pares\_FINAL.csv}.&Revisar los 10 pares seleccionados, marcar conflicto 0/1, documentar resolución y comprobar cero abiertos.&Ante cambios en permisos, consentimiento, alertas, IA, rutinas o reportes.\\
+M2&\texttt{auditoria\_consistencia\_pares.csv}.&Revisar los 10 pares seleccionados, marcar conflicto 0/1, documentar resolución y comprobar cero abiertos.&Ante cambios en permisos, consentimiento, alertas, IA, rutinas o reportes.\\
 M3&Catálogo BDD y casos de prueba.&Contar requisitos con escenario comprobable y verificar que el BDD tenga resultado observable, umbral o estado esperado.&Al cambiar criterios de aceptación o incorporar RNF/RNF-IA.\\
 M4&Matriz de trazabilidad final CSV.&Resolver cada referencia Fuente--RF--CU--Clase--Estado--BDD--CP y contar 33 RF completos; comprobar fuente para trazabilidad hacia atrás.&En cada línea base y después de cambios de modelos, backlog o pruebas.\\
-M5&\texttt{impacto\_modificabilidad\_FINAL.csv}.&Recorrer dependencias de los cinco RF de muestra, contar requisitos afectados y calcular promedio.&Cuando se modifiquen dependencias o se apruebe un RFC que afecte la muestra.\\
-M6&\texttt{reinspeccion\_fagan\_FINAL.csv}.&Revisar D-01 a D-16 contra el ERS vigente y dividir defectos residuales para el total de requisitos.&Después de cambios mayores del ERS o antes de una nueva línea base.\\
+M5&\texttt{impacto\_modificabilidad.csv}.&Recorrer dependencias de los cinco RF de muestra, contar requisitos afectados y calcular promedio.&Cuando se modifiquen dependencias o se apruebe un RFC que afecte la muestra.\\
+M6&\texttt{reinspeccion\_fagan.csv}.&Revisar D-01 a D-16 contra el ERS vigente y dividir defectos residuales para el total de requisitos.&Después de cambios mayores del ERS o antes de una nueva línea base.\\
 \bottomrule\end{longtable}
 
 La regla de cierre es que una cifra solo se mantiene en el informe mientras pueda reconstruirse desde los archivos de la misma versión. El historial Git complementa esta trazabilidad de configuración: una vez congelada la línea base, el SHA identifica exactamente las fuentes, matrices, figuras y scripts sobre los que se obtuvieron los resultados publicados.
@@ -676,6 +684,13 @@ Las responsabilidades de cierre quedan distribuidas entre los cuatro integrantes
 \bibitem{zheng2022} Z. Zheng et al., ``A review of computer vision-based approaches for physical rehabilitation and assessment,'' \emph{Multimedia Systems}, 2022, doi: 10.1007/s00530-021-00815-4.
 \bibitem{ribeiro2016} M. T. Ribeiro, S. Singh, and C. Guestrin, ``Why Should I Trust You? Explaining the Predictions of Any Classifier,'' in \emph{Proc. ACM SIGKDD}, 2016, pp. 1135--1144, doi: 10.1145/2939672.2939778.
 \bibitem{lundberg2017} S. M. Lundberg and S.-I. Lee, ``A Unified Approach to Interpreting Model Predictions,'' in \emph{Advances in Neural Information Processing Systems}, 2017.
+\bibitem{iso15288} ISO/IEC/IEEE, \emph{ISO/IEC/IEEE 15288:2023 Systems and Software Engineering -- System Life Cycle Processes}, 2023.
+\bibitem{iso12207} ISO/IEC/IEEE, \emph{ISO/IEC/IEEE 12207:2017 Systems and Software Engineering -- Software Life Cycle Processes}, 2017.
+\bibitem{pohl2025} K. Pohl, \emph{Requirements Engineering: Fundamentals, Principles, and Techniques}, 2nd ed. Springer, 2025, ISBN 978-3-662-69204-2.
+\bibitem{swebok4} H. Washizaki, Ed., \emph{Guide to the Software Engineering Body of Knowledge (SWEBOK Guide)}, Version 4.0. IEEE Computer Society, 2024.
+\bibitem{pmbok7} Project Management Institute, \emph{A Guide to the Project Management Body of Knowledge (PMBOK Guide)}, 7th ed. PMI, 2021, ISBN 978-1-62825-664-2.
+\bibitem{ireb330} S. Bühne and M. Glinz, \emph{IREB Certified Professional for Requirements Engineering -- Foundation Level Syllabus}, Version 3.3.0, IREB e.V., 2026.
+\bibitem{euai2024} European Union, ``Regulation (EU) 2024/1689 laying down harmonised rules on artificial intelligence,'' \emph{Official Journal of the European Union}, 2024.
 \bibitem{lopdp2021} Asamblea Nacional del Ecuador, \emph{Ley Orgánica de Protección de Datos Personales}, Registro Oficial Quinto Suplemento 459, 2021.
 \end{thebibliography}
 \clearpage
@@ -766,7 +781,44 @@ TR-058 & PE5 C3; RF-28/RF-29; RES-01/RES-03 & RNF-IA2-XAI01 & CU-08 & Alerta; Re
 \end{landscape}
 \normalsize\clearpage
 
-\section*{Anexo C — Especificación ampliada de IA}\addcontentsline{toc}{section}{Anexo C — Especificación ampliada de IA}
+\section*{Anexo C — Declaración individual de aporte al PFC}\addcontentsline{toc}{section}{Anexo C — Declaración individual de aporte al PFC}
+\begin{table}[H]\centering\caption{Responsabilidades del equipo en PE5}\begin{tabularx}{\textwidth}{p{0.32\textwidth}X}\toprule
+\textbf{Integrante}&\textbf{Responsabilidad principal}\\\midrule
+Morán Pilaguano Frixon Fernando&Validación y calidad del ERS; re-inspección Fagan, consistencia y métricas M2/M6.\\
+Contreras Chávez Kevin Germán&Backlog, criterios BDD, casos de prueba y trazabilidad; apoyo a documentación Fagan.\\
+Viteri García Jonathan Enrique&Modelado UML, revisión arquitectónica, DFD y relaciones entre modelos.\\
+Zambrano Moya Angelo Paul&Integración documental, requisitos, métricas, control de configuración y coordinación de la defensa.\\\bottomrule
+\end{tabularx}\end{table}
+La declaración de aporte debe contrastarse con el historial Git del repositorio (autores, fechas, archivos modificados y mensajes de commit). Los SHA definitivos de la línea base se documentan únicamente después de congelar el repositorio, para evitar declarar identificadores provisionales.
+\clearpage
+
+\section*{Anexo D — Retrospectiva Start--Stop--Continue}\addcontentsline{toc}{section}{Anexo D — Retrospectiva Start--Stop--Continue}
+La retrospectiva de cierre conserva al menos tres elementos por categoría y asigna responsables o acciones concretas, conforme a la guía PE5.
+
+\begin{table}[H]\centering\caption{Retrospectiva Start--Stop--Continue de cierre PE5}
+\begin{tabularx}{\textwidth}{p{0.12\textwidth}X p{0.24\textwidth}}\toprule
+\textbf{Categoría}&\textbf{Acción}&\textbf{Responsable}\\\midrule
+Start&Compilar ERS e informe desde clon limpio antes de cada entrega y conservar el log.&Zambrano Moya Angelo Paul\\
+Start&Ejecutar métricas y conservar los conteos base junto con la matriz.&Morán Pilaguano Frixon Fernando\\
+Start&Revisar que modelos UML y DFD mantengan los mismos identificadores del ERS.&Viteri García Jonathan Enrique\\
+Stop&Subir PDFs sin su fuente editable y sin instrucciones reproducibles.&Equipo CMVZ\\
+Stop&Crear identificadores de HU, BDD o pruebas que no existan como artefactos.&Contreras Chávez Kevin Germán\\
+Stop&Usar mensajes genéricos de commit como evidencia principal de trabajo.&Equipo CMVZ\\
+Continue&Conservar trabajo de campo, consentimientos y evidencias verificables.&Contreras Chávez Kevin Germán\\
+Continue&Delimitar la IA como apoyo y mantener supervisión del fisioterapeuta.&Equipo CMVZ\\
+Continue&Usar Fagan, CCB y trazabilidad para justificar cambios.&Morán Pilaguano Frixon Fernando\\
+\bottomrule
+\end{tabularx}
+\end{table}
+\clearpage
+
+\section*{Anexo E — Referencias y declaración de uso responsable de IA}\addcontentsline{toc}{section}{Anexo E — Referencias y declaración de uso responsable de IA}
+Las referencias académicas y normativas verificables se presentan en la sección de bibliografía inmediatamente anterior a los anexos. Este anexo documenta además el uso responsable de herramientas de inteligencia artificial durante la preparación de la entrega.
+
+
+Durante la preparación y revisión de la versión final PE5 se utilizó ChatGPT, de OpenAI, como herramienta de apoyo para organización de contenidos, revisión de redacción, verificación estructural, construcción asistida de matrices, preparación de scripts y comprobación de consistencia entre artefactos. Los requisitos, modelos, criterios de aceptación, evidencias, métricas y decisiones de ingeniería fueron contrastados por el equipo frente al ERS/SRS, los documentos fuente, la guía, la rúbrica y el repositorio. La herramienta no sustituye la validación humana, la responsabilidad académica ni el criterio clínico. La simulación controlada del protocolo de explicabilidad se identifica expresamente como tal y se mantiene separada de la evidencia humana real. Los integrantes asumen la responsabilidad final por la exactitud, coherencia y trazabilidad del contenido entregado.
+\clearpage
+\section*{Anexo F — Especificación ampliada de IA}\addcontentsline{toc}{section}{Anexo F — Especificación ampliada de IA}
 La especificación de IA contiene dos componentes. IA-01 analiza movimiento y repeticiones; IA-02 prioriza alertas y recomendaciones para revisión profesional. Los diez RNF-IA definen rendimiento, equidad y explicabilidad mediante umbrales y métodos de comprobación. Estos umbrales son criterios de aceptación del componente y no se confunden con los resultados de la simulación controlada de explicabilidad, cuyo objetivo es ejercitar la evaluación de claridad y comprensión de las explicaciones.
 
 \begin{itemize}
@@ -775,18 +827,4 @@ La especificación de IA contiene dos componentes. IA-01 analiza movimiento y re
 \end{itemize}
 \clearpage
 
-\section*{Anexo D — Gestión y contribución del equipo}\addcontentsline{toc}{section}{Anexo D — Gestión y contribución del equipo}
-\begin{table}[H]\centering\caption{Responsabilidades del equipo en PE5}\begin{tabularx}{\textwidth}{p{0.32\textwidth}X}\toprule
-\textbf{Integrante}&\textbf{Responsabilidad principal}\\\midrule
-Morán Pilaguano Frixon Fernando&Validación y calidad del ERS; re-inspección Fagan, consistencia y métricas M2/M6.\\
-Contreras Chávez Kevin Germán&Backlog, criterios BDD, casos de prueba y trazabilidad; apoyo a documentación Fagan.\\
-Viteri García Jonathan Enrique&Modelado UML, revisión arquitectónica, DFD y relaciones entre modelos.\\
-Zambrano Moya Angelo Paul&Integración documental, requisitos, métricas, control de configuración y coordinación de la defensa.\\\bottomrule
-\end{tabularx}\end{table}
-La evidencia Git de estas contribuciones se incorpora durante el cierre del repositorio, manteniendo coherencia entre autores, mensajes de commit, archivos modificados y responsabilidades declaradas.
-\clearpage
-
-\section*{Anexo E — Declaración de uso responsable de IA}\addcontentsline{toc}{section}{Anexo E — Declaración de uso responsable de IA}
-Durante la preparación y revisión de la versión final PE5 se utilizó ChatGPT, de OpenAI, como herramienta de apoyo para organización de contenidos, revisión de redacción, verificación estructural, construcción asistida de matrices, preparación de scripts y comprobación de consistencia entre artefactos. Los requisitos, modelos, criterios de aceptación, evidencias, métricas y decisiones de ingeniería fueron contrastados por el equipo frente al ERS/SRS, los documentos fuente, la guía, la rúbrica y el repositorio. La herramienta no sustituye la validación humana, la responsabilidad académica ni el criterio clínico. La simulación controlada del protocolo de explicabilidad se identifica expresamente como tal y se mantiene separada de la evidencia humana real. Los integrantes asumen la responsabilidad final por la exactitud, coherencia y trazabilidad del contenido entregado.
-\clearpage
 \end{document}

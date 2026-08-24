@@ -6,126 +6,63 @@ Esta carpeta contiene el Informe Final de la Práctica Experimental Unidad V (PE
 
 ## Archivo principal
 
-El archivo fuente principal del informe es:
-
 `main.tex`
 
-## PDF generado
-
-El PDF final generado desde LaTeX es:
+## PDF oficial
 
 `PE5_U5_PFC_Final_MORAN_CONTRERAS_VITERI_ZAMBRANO.pdf`
 
 ## Compilador
 
-El documento debe compilarse utilizando:
-
 **XeLaTeX**
 
-Se recomienda utilizar `latexmk` para ejecutar automáticamente las pasadas necesarias de compilación.
-
-## Requisitos de compilación
-
-Se requiere:
-
-- Una distribución TeX compatible con XeLaTeX, como TeX Live o MiKTeX.
-- XeLaTeX.
-- latexmk.
-- Los paquetes LaTeX indicados en la sección de dependencias.
-- El archivo `references.bib`.
-- La carpeta `figuras/` con las imágenes utilizadas por el documento.
+Se recomienda `latexmk` para ejecutar automáticamente las pasadas necesarias.
 
 ## Compilación desde un clon limpio
 
-Después de clonar el repositorio:
-
 ```bash
 git clone https://github.com/AngeloP2114/Sistema_Terapia_Fisica_ISR401_2A.git
-```
-
-Ingresar al repositorio:
-
-```bash
-cd Sistema_Terapia_Fisica_ISR401_2A
-```
-
-Ingresar a la carpeta del Informe Final PE5:
-
-```bash
-cd PE5_Informe_Final
-```
-
-Compilar el documento mediante:
-
-```bash
+cd Sistema_Terapia_Fisica_ISR401_2A/PE5_Informe_Final
 latexmk -xelatex -interaction=nonstopmode main.tex
 ```
 
-Al finalizar correctamente la compilación se generará:
+Al finalizar se genera:
 
 `main.pdf`
 
-El contenido de `main.pdf` corresponde al Informe Final PE5 publicado también como:
-
-`PE5_U5_PFC_Final_MORAN_CONTRERAS_VITERI_ZAMBRANO.pdf`
-
-## Limpieza de archivos auxiliares
-
-Para eliminar archivos auxiliares generados durante la compilación:
+## Limpieza
 
 ```bash
 latexmk -c
 ```
 
-Para realizar una limpieza completa:
+Limpieza completa:
 
 ```bash
 latexmk -C
 ```
 
-## Estructura necesaria para la compilación
-
-La carpeta debe conservar la siguiente estructura:
+## Archivos necesarios
 
 ```text
 PE5_Informe_Final/
-│
 ├── README.md
 ├── main.tex
 ├── references.bib
 ├── PE5_U5_PFC_Final_MORAN_CONTRERAS_VITERI_ZAMBRANO.pdf
-│
-└── figuras/
-    ├── casos_uso_10_pe5.png
-    └── dfd_nivel1_pe5.png
+├── figuras/
+│   ├── casos_uso_10_pe5.png
+│   └── dfd_nivel1_pe5.png
+├── Defensa/
+└── Aportes/
 ```
 
-No deben modificarse los nombres ni las rutas de las figuras sin actualizar también las referencias incluidas en `main.tex`.
-
-## Bibliografía
-
-Las referencias utilizadas por el informe se encuentran en:
-
-`references.bib`
-
-El proceso de compilación mediante `latexmk` gestiona las pasadas necesarias para resolver referencias, citas y elementos auxiliares del documento.
-
-## Figuras
-
-Las figuras requeridas por el documento se encuentran en:
-
-`figuras/`
-
-Archivos incluidos:
+## Figuras utilizadas
 
 - `figuras/casos_uso_10_pe5.png`
 - `figuras/dfd_nivel1_pe5.png`
 
-Estas imágenes son utilizadas directamente por `main.tex` y deben permanecer disponibles en las rutas indicadas.
-
 ## Dependencias LaTeX
-
-El documento utiliza los siguientes paquetes principales:
 
 - geometry
 - newtxtext
@@ -134,9 +71,12 @@ El documento utiliza los siguientes paquetes principales:
 - graphicx
 - booktabs
 - longtable
+- array
 - tabularx
 - pdflscape
 - float
+- xcolor
+- enumitem
 - hyperref
 - microtype
 - cite
@@ -146,45 +86,27 @@ El documento utiliza los siguientes paquetes principales:
 - caption
 - lastpage
 
-Las dependencias se encuentran disponibles en distribuciones TeX completas como TeX Live o MiKTeX.
+## Bibliografía
 
-## Verificación de reproducibilidad
+La bibliografía que aparece en el PDF está declarada en `main.tex`.
 
-La versión final del informe fue preparada para que pueda reproducirse utilizando únicamente los archivos incluidos en esta carpeta.
+`references.bib` se conserva como archivo bibliográfico complementario y sincronizado para facilitar mantenimiento y auditoría.
 
-La comprobación consiste en:
+## Material de defensa
 
-1. Clonar el repositorio.
-2. Entrar en `PE5_Informe_Final/`.
-3. Ejecutar:
+- `Defensa/Defensa_PE5_SICST_FINAL.pptx`
+- `Defensa/Defensa_PE5_SICST_FINAL.pdf`
+
+## Reproducibilidad G2
+
+La verificación final debe realizarse desde una clonación limpia del repositorio ejecutando:
 
 ```bash
 latexmk -xelatex -interaction=nonstopmode main.tex
 ```
 
-4. Verificar que se genere correctamente `main.pdf`.
-5. Comprobar que no existan errores de compilación que impidan producir el PDF.
-
-## Correspondencia con el PDF entregado
-
-El archivo generado desde:
-
-`main.tex`
-
-corresponde al Informe Final PE5 del proyecto SICST.
-
-PDF oficial:
-
-`PE5_U5_PFC_Final_MORAN_CONTRERAS_VITERI_ZAMBRANO.pdf`
+El cierre definitivo de la línea base solo se realiza después de comprobar que el PDF se genera sin errores que impidan la compilación.
 
 ## Repositorio
 
-Repositorio oficial del proyecto:
-
 https://github.com/AngeloP2114/Sistema_Terapia_Fisica_ISR401_2A
-
-## Nota de reproducibilidad G2
-
-Los archivos fuente, bibliografía y figuras necesarios para regenerar el Informe Final PE5 se encuentran incluidos en esta carpeta.
-
-El procedimiento de compilación, compilador utilizado, archivo principal, dependencias y comandos necesarios se documentan explícitamente para permitir la reproducción del PDF a partir de una clonación limpia del repositorio.
