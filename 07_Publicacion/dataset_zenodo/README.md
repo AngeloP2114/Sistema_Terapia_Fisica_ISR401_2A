@@ -1,29 +1,36 @@
-# Dataset Zenodo
+# Dataset anonimizado SICST — preparación PE5
 
-Esta carpeta contiene el paquete de datos preparado para su depósito en Zenodo como parte de la preparación de publicación académica del proyecto SICST.
+## Descripción
 
-## Objetivo
+Paquete preparado para la publicación académica del **Sistema Inteligente de Control y Seguimiento de Terapia Física (SICST)**. Reúne datos anonimizados y derivados, requisitos priorizados, una copia sincronizada de la matriz de trazabilidad final y materiales reproducibles de análisis.
 
-Organizar los datos anonimizados, archivos procesados, requisitos etiquetados, matriz de trazabilidad y materiales de análisis para que el proyecto pueda ser revisado, citado y reutilizado bajo principios FAIR.
+Este directorio representa una **preparación para depósito**; no implica por sí mismo que exista un depósito publicado en Zenodo ni un DOI asignado.
 
-## Archivos esperados
+## Contenido principal
 
-- README_dataset.md
-- transcripciones_anonimizadas.json
-- respuestas_cuestionario.csv
-- requisitos_rf_rnf.json
-- matriz_trazabilidad.csv
-- diccionario_datos.csv
+- `respuestas_cuestionario_anonimizadas.csv`: 31 respuestas válidas utilizadas en el análisis.
+- `resumen_perfiles.csv`: distribución de 20 pacientes o expacientes, 8 familiares o cuidadores y 3 fisioterapeutas.
+- `diccionario_datos.csv`: descripción de variables.
+- `requisitos_priorizados.csv`: priorización de requisitos del proyecto.
+- `Matriz_Trazabilidad_Final_PE5_Rubrica.csv`: copia sincronizada de la matriz canónica PE5.
+- `catalogo_transcripciones_anonimizado.csv`: catálogo anonimizado; los materiales identificables no forman parte del paquete público.
+- `figura_distribucion_perfiles.png`: figura derivada del conjunto anonimizado.
+- `scripts_analisis/`: código para regenerar productos derivados.
+- `LICENSE.txt`: información de licencia del material preparado.
+- `CITATION.cff`: metadatos de citación del paquete.
 
-## Contenido del paquete
+## Matriz canónica
 
-- Transcripciones anonimizadas de entrevistas.
-- Respuestas del cuestionario en formato CSV.
-- Requisitos funcionales y no funcionales etiquetados.
-- Matriz de trazabilidad.
-- Diccionario de datos.
-- Instrucciones de citación del dataset.
+La fuente de verdad de trazabilidad del repositorio se encuentra en:
 
-## Nota de privacidad
+`../../04_Trazabilidad/Matriz_Trazabilidad_Final_PE5_Rubrica.csv`
 
-Los datos incluidos en esta carpeta deben estar anonimizados. No se deben publicar nombres completos, cédulas, teléfonos, direcciones, diagnósticos sensibles ni firmas de participantes.
+La copia incluida aquí debe mantenerse sincronizada con esa versión. La línea base final documenta **58 enlaces de trazabilidad**.
+
+## Privacidad
+
+No se incluyen nombres completos, cédulas, teléfonos, firmas, rostros, voces ni consentimientos identificables. Los originales sensibles deben permanecer bajo acceso restringido.
+
+## Repositorio
+
+https://github.com/AngeloP2114/Sistema_Terapia_Fisica_ISR401_2A
