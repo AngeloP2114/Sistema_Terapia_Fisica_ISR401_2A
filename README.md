@@ -22,7 +22,7 @@ Repositorio final del Proyecto Integrador de Ingeniería de Requisitos — PE5.
 
 El ERS/SRS consolidado del proyecto se encuentra en:
 
-`01_ERS/ERS_SRS_SICST_PE5_FINAL.pdf`
+`01_ERS/ERS_SRS_SICST_PE5_FINAL1.pdf`
 
 La carpeta `01_ERS/` contiene además la versión editable del documento.
 
