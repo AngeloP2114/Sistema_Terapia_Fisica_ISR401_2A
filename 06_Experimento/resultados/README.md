@@ -1,9 +1,7 @@
-# Resultados
+# Ejecución controlada del protocolo de explicabilidad
 
-Esta carpeta se reserva para los datos anonimizados y productos de análisis de la Entrega 4.
+Estos archivos corresponden a una **simulación controlada con datos sintéticos** utilizada para ejercitar el flujo metodológico del protocolo PE5. No representan respuestas de participantes reales y se mantienen separados de entrevistas, consentimientos, cuestionarios y walkthrough del trabajo de campo.
 
-No se incluyen resultados inventados. Las plantillas permiten registrar:
-
-- respuestas anonimizadas por ronda, perfil y escenario;
-- codificación cualitativa de comentarios;
-- tablas y figuras generadas mediante los scripts reproducibles.
+- `ronda1.csv`: seis perfiles, Q01-Q11 Likert 1-5 y Q12 comentario abierto.
+- `ronda2.csv`: seis perfiles después del refinamiento de la explicación.
+- `analizar_explicabilidad.py`: reproduce medias e indicadores reportados en el informe.

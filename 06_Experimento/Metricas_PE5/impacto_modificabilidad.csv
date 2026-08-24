@@ -1,0 +1,7 @@
+Muestra,RF,Cambio_simulado,Requisitos_afectados,Cantidad,Justificacion
+MOD-01,RF-02,"Modificar reglas de roles y permisos","RNF-06; RNF-14; RF-32",3,"Afecta control de acceso, auditoría de operaciones sensibles y consulta autorizada de terceros."
+MOD-02,RF-17,"Cambiar estructura de asignación de rutina","RF-18; RF-31",2,"Las guías visuales y los recordatorios dependen de la rutina asignada."
+MOD-03,RF-20,"Cambiar condiciones de captura con cámara","RF-21; RNF-12; RNF-IA1-XAI01",3,"Afecta entrada del análisis IA, consentimiento previo y la explicación asociada a la retroalimentación."
+MOD-04,RF-28,"Modificar reglas de generación de alertas","RF-33; RNF-13; RF-29",3,"Afecta gestión de estados, tiempo de visualización y recomendaciones de seguimiento."
+MOD-05,RF-32,"Modificar alcance del acceso del familiar/cuidador","RNF-06; RES-15",2,"Afecta control de acceso y revocatoria de autorización."
+RESUMEN,,,TOTAL=13,2.60,"M5 = 13 / 5 = 2,60 requisitos afectados en promedio."

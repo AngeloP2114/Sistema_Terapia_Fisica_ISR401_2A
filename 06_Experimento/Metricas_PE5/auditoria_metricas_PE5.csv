@@ -1,0 +1,10 @@
+Metrica,Formula,Conteo,Resultado,Referencia,Veredicto
+M1a,"requisitos con ID+prioridad+fuente+criterio / requisitos totales * 100","58/58","100%",">=95%",Cumple
+M1b,"CU especificados / CU identificados * 100","10/10","100%","100%",Cumple
+M1c,"actores con >=1 RF / actores primarios * 100","4/4","100%","100%",Cumple
+M2,"1 - conflictos / pares analizados","1 - 0/10","1.00",">=0.98 y 0 abiertos",Cumple
+M3,"requisitos con BDD comprobable / requisitos totales * 100","58/58","100%",">=90%",Cumple
+M4a,"RF con cadena adelante completa / RF * 100","33/33","100%",">=90%",Cumple
+M4b,"RF con fuente identificada / RF * 100","33/33","100%","100%",Cumple
+M5,"sumatoria de requisitos afectados / muestra","13/5","2.60","<=3.0",Cumple
+M6,"defectos residuales / requisitos totales","0/58","0.000","<=0.05",Cumple

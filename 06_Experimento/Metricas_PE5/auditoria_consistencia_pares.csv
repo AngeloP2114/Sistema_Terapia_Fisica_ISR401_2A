@@ -1,0 +1,11 @@
+Par_ID,Requisito_A,Requisito_B,Ambito,Conflicto_0_1,Descripcion,Accion,Estado
+PAR-01,RF-20,RNF-12,Cámara/consentimiento,0,"RF-20 habilita cámara y RNF-12 exige consentimiento previo; son complementarios.","Mantener validación de consentimiento antes de captura.",Cerrado
+PAR-02,RF-32,RES-15,Acceso familiar/revocatoria,0,"RF-32 permite consulta autorizada y RES-15 revoca nuevos accesos cuando se retira el consentimiento.","Denegar acceso cuando la autorización no esté vigente.",Cerrado
+PAR-03,RF-28,RF-33,Alertas/estado,0,"RF-28 crea la alerta y RF-33 administra sus estados Pendiente/Revisada/Atendida.","Conservar transición de estado y trazabilidad temporal.",Cerrado
+PAR-04,RF-21,RNF-04,IA/conteo,0,"RF-21 realiza análisis y RNF-04 fija la precisión mínima del conteo automático.","Validar conteo contra referencia manual.",Cerrado
+PAR-05,RF-25,RNF-IA1-XAI01,Retroalimentación/explicación,0,"RF-25 genera retroalimentación y RNF-IA1-XAI01 define contenido, longitud, tiempo y claridad.","Verificar causa, evidencia y acción segura.",Cerrado
+PAR-06,RF-29,RNF-IA2-XAI01,Recomendación/explicación,0,"RF-29 genera recomendación de apoyo y RNF-IA2-XAI01 exige factores y advertencia no diagnóstica.","Mantener revisión profesional obligatoria.",Cerrado
+PAR-07,RF-01,RNF-05,Sesión/seguridad,0,"RF-01 autentica y RNF-05 cierra sesión por inactividad; no existe contradicción funcional.","Aplicar timeout después de autenticación.",Cerrado
+PAR-08,RF-02,RNF-06,Roles/confidencialidad,0,"RF-02 gestiona permisos y RNF-06 restringe funciones sensibles por rol.","Sincronizar matriz de permisos con roles.",Cerrado
+PAR-09,RF-17,RF-31,Rutina/recordatorio,0,"RF-17 asigna la rutina y RF-31 recuerda rutinas pendientes según frecuencia.","Vincular recordatorio a rutina activa y no cumplida.",Cerrado
+PAR-10,RF-27,RF-30,Progreso/reporte,0,"RF-27 muestra progreso y RF-30 genera reporte usando el historial terapéutico.","Usar las mismas fuentes de datos e indicadores.",Cerrado
