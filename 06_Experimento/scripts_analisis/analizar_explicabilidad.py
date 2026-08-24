@@ -4,10 +4,11 @@ from pathlib import Path
 from statistics import mean
 
 BASE = Path(__file__).resolve().parent
+RESULTS = BASE.parent / "resultados"
 QUESTIONS = [f"Q{i:02d}" for i in range(1, 12)]
 
 def load(name: str) -> list[dict[str, str]]:
-    with (BASE / name).open(encoding="utf-8-sig", newline="") as f:
+    with (RESULTS / name).open(encoding="utf-8-sig", newline="") as f:
         return list(csv.DictReader(f))
 
 def summarize(rows: list[dict[str, str]]) -> dict[str, float]:
