@@ -1,60 +1,82 @@
-# Producto Mínimo Viable - SICST
+# Producto Mínimo Viable — SICST PE5
 
-Esta carpeta contiene el Producto Mínimo Viable del Sistema Inteligente de Control y Seguimiento de Terapia Física.
+Esta carpeta contiene el Producto Mínimo Viable del proyecto **Sistema Inteligente de Control y Seguimiento de Terapia Física (SICST)**.
 
-El MVP incluye dos aplicaciones web:
+El MVP está compuesto por dos aplicaciones web independientes:
 
-- Aplicación para fisioterapeuta.
-- Aplicación para paciente.
+- `SICST_Fisioterapeuta_APP/`
+- `SICST_Paciente_APP/`
 
-## Objetivo del MVP
+## Aplicación del fisioterapeuta
 
-Validar las funcionalidades principales del sistema mediante un prototipo funcional que permita demostrar el flujo básico de seguimiento terapéutico, asignación de rutinas, registro de dolor y fatiga, reportes de progreso, privacidad y consentimiento para uso de cámara.
+Ubicación:
 
-## Aplicaciones incluidas
+`05_MVP/SICST_Fisioterapeuta_APP/`
 
-### SICST_Fisioterapeuta_APP/
+Archivos principales:
 
-Aplicación orientada al fisioterapeuta.
+- `index.html`
+- `css/`
+- `js/`
+- `Fisioterapeuta.mp4`
+- `README.md`
 
-Funciones principales:
+La aplicación permite representar funcionalidades relacionadas con:
 
-- Visualizar panel general de pacientes.
-- Registrar pacientes.
-- Registrar evaluación inicial.
-- Gestionar catálogo de ejercicios.
-- Asignar rutinas terapéuticas.
-- Revisar seguimiento terapéutico.
-- Visualizar alertas.
-- Consultar reportes.
-- Gestionar privacidad y consentimientos.
+- gestión de pacientes;
+- evaluación inicial;
+- catálogo de ejercicios;
+- asignación de rutinas;
+- seguimiento terapéutico;
+- alertas;
+- reportes;
+- privacidad y consentimiento.
 
-### SICST_Paciente_APP/
+## Aplicación del paciente
 
-Aplicación orientada al paciente.
+Ubicación:
 
-Funciones principales:
+`05_MVP/SICST_Paciente_APP/`
 
-- Consultar rutina asignada.
-- Revisar ejercicio guiado.
-- Registrar dolor y fatiga.
-- Consultar progreso.
-- Gestionar recordatorios.
-- Revisar privacidad.
-- Autorizar o rechazar uso de cámara.
+Archivos principales:
+
+- `index.html`
+- `css/`
+- `js/`
+- `Paciente.mp4`
+- `README.md`
+
+La aplicación permite representar funcionalidades relacionadas con:
+
+- consulta de rutina terapéutica;
+- ejercicios guiados;
+- registro de dolor y fatiga;
+- seguimiento del progreso;
+- recordatorios;
+- privacidad;
+- consentimiento para uso de cámara.
 
 ## Ejecución local
 
-Para ejecutar cada aplicación:
+Cada aplicación puede ejecutarse de forma independiente.
 
-1. Abrir la carpeta correspondiente en Visual Studio Code.
-2. Abrir el archivo `index.html`.
-3. Ejecutar con Live Server o abrir directamente en el navegador.
+1. Abrir la carpeta de la aplicación correspondiente.
+2. Abrir `index.html`.
+3. Ejecutar mediante Live Server o directamente en un navegador compatible.
 
-## Video demostrativo
+No se requiere instalación de dependencias externas para visualizar el prototipo.
 
-El recorrido funcional del MVP se documenta en:
+## Videos demostrativos
 
-`video_demo.mp4`
+Los recorridos funcionales se encuentran en:
 
-El video debe tener una duración menor o igual a 3 minutos.
+- `SICST_Fisioterapeuta_APP/Fisioterapeuta.mp4`
+- `SICST_Paciente_APP/Paciente.mp4`
+
+## Relación con PE5
+
+El MVP sirve como evidencia de apoyo para la validación de los requisitos y flujos definidos en el ERS/SRS final.
+
+Los requisitos y su trazabilidad oficial se encuentran documentados en:
+
+`04_Trazabilidad/Matriz_Trazabilidad_Final_PE5_Rubrica.csv`
