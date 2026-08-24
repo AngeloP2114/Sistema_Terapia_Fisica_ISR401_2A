@@ -188,3 +188,15 @@ https://github.com/AngeloP2114/Sistema_Terapia_Fisica_ISR401_2A
 Los archivos fuente, bibliografía y figuras necesarios para regenerar el Informe Final PE5 se encuentran incluidos en esta carpeta.
 
 El procedimiento de compilación, compilador utilizado, archivo principal, dependencias y comandos necesarios se documentan explícitamente para permitir la reproducción del PDF a partir de una clonación limpia del repositorio.
+## Material de defensa
+
+Los materiales utilizados para la defensa final de PE5 se encuentran en:
+
+`Defensa/`
+
+Archivos disponibles:
+
+- `Defensa/Defensa_PE5_SICST_FINAL.pptx`
+- `Defensa/Defensa_PE5_SICST_FINAL.pdf`
+
+La presentación corresponde al Informe Final PE5 disponible en esta misma carpeta.
