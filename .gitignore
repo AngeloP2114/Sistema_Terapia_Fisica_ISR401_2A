@@ -34,6 +34,9 @@ node_modules/
 *.rar
 *.7z
 
+# Permitir el contenedor cifrado oficial de evidencias
+!02_Evidencias/00_Restringido/evidencias_restringidas.7z
+
 # Archivos de respaldo
 ~$*
 *.old
