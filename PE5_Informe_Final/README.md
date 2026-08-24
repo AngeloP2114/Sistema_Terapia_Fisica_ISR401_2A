@@ -134,9 +134,12 @@ El documento utiliza los siguientes paquetes principales:
 - graphicx
 - booktabs
 - longtable
+- array
 - tabularx
 - pdflscape
 - float
+- xcolor
+- enumitem
 - hyperref
 - microtype
 - cite
