@@ -10,9 +10,7 @@ Repositorio de la **Entrega Final 2B** del Proyecto Integrador de la asignatura 
 
 ## Integrantes
 
-- Morán Pilaguano Frixon Fernando
 - Contreras Chávez Kevin Germán
-- Viteri García Jonathan Enrique
 - Zambrano Moya Angelo Paul
 
 ---
