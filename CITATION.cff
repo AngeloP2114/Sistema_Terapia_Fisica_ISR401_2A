@@ -6,14 +6,8 @@ version: "2.0"
 date-released: "2026-09-01"
 
 authors:
-  - family-names: "Morán Pilaguano"
-    given-names: "Frixon Fernando"
-
   - family-names: "Contreras Chávez"
     given-names: "Kevin Germán"
-
-  - family-names: "Viteri García"
-    given-names: "Jonathan Enrique"
 
   - family-names: "Zambrano Moya"
     given-names: "Angelo Paul"
