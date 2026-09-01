@@ -6,78 +6,67 @@ Repositorio documental de la **Especificación de Requisitos de Software (ERS/SR
 
 El archivo fuente canónico de esta carpeta es:
 
-```text
-ERS_SRS_2B_v2.0.tex
-```
+`ERS_SRS_2B_v2.0.tex`
 
 El PDF evaluable generado desde esa fuente es:
 
-```text
-ERS_SRS_2B_v2.0.pdf
-```
+`ERS_SRS_2B_v2.0.pdf`
 
 La bibliografía de apoyo se conserva en:
 
-```text
-referencias.bib
-```
+`referencias.bib`
 
 Los recursos gráficos utilizados por el archivo LaTeX se encuentran en:
 
-```text
-assets/
-```
+`assets/`
 
 ## 2. Compilador requerido
 
-El documento debe compilarse con **XeLaTeX**. No usar `pdflatex`, porque la fuente utiliza `fontspec` y fuentes Unicode.
+El documento debe compilarse con **pdfLaTeX**.
 
 Compilador esperado:
 
-```text
-XeLaTeX
-```
+`pdfLaTeX`
+
+La fuente actual fue adaptada para evitar dependencias exclusivas de XeLaTeX y utiliza configuración compatible con pdfLaTeX.
 
 ## 3. Dependencias
 
 Se requiere una distribución LaTeX actual, por ejemplo:
 
-- TeX Live 2024 o superior, o
-- MiKTeX actualizado, o
-- Overleaf configurado con XeLaTeX.
+- TeX Live 2024 o superior;
+- MiKTeX actualizado;
+- Overleaf configurado con pdfLaTeX.
 
-Paquetes utilizados directamente por la fuente:
+Paquetes principales utilizados por la fuente:
 
-- `fontspec`
+- `inputenc`
+- `fontenc`
+- `lmodern`
+- `textcomp`
 - `graphicx`
 - `xcolor`
 - `geometry`
 - `hyperref`
 
-Fuentes requeridas por la versión actual:
-
-- Liberation Serif
-- Liberation Sans
-- Liberation Mono
+La fuente incorpora además compatibilidad explícita para caracteres Unicode utilizados en el documento.
 
 ## 4. Compilación local
 
-Después de clonar o descargar el repositorio, abrir una terminal dentro de la carpeta `01_ERS/`.
+Después de clonar o descargar el repositorio, abrir una terminal dentro de la carpeta:
+
+`01_ERS/`
 
 Ejecutar en este orden:
 
-```bash
-xelatex -interaction=nonstopmode -halt-on-error ERS_SRS_2B_v2.0.tex
-xelatex -interaction=nonstopmode -halt-on-error ERS_SRS_2B_v2.0.tex
-```
+    pdflatex -interaction=nonstopmode -halt-on-error ERS_SRS_2B_v2.0.tex
+    pdflatex -interaction=nonstopmode -halt-on-error ERS_SRS_2B_v2.0.tex
 
-La segunda compilación se ejecuta para estabilizar los elementos internos del documento y asegurar una salida reproducible.
+La segunda compilación se utiliza para estabilizar referencias y elementos internos del documento.
 
 El archivo generado debe ser:
 
-```text
-ERS_SRS_2B_v2.0.pdf
-```
+`ERS_SRS_2B_v2.0.pdf`
 
 ## 5. Compilación en Overleaf
 
@@ -85,94 +74,104 @@ ERS_SRS_2B_v2.0.pdf
 2. Subir `ERS_SRS_2B_v2.0.tex`.
 3. Subir `referencias.bib`.
 4. Subir la carpeta completa `assets/` conservando exactamente su nombre.
-5. Abrir **Menu > Settings > Compiler**.
-6. Seleccionar **XeLaTeX**.
-7. Establecer `ERS_SRS_2B_v2.0.tex` como documento principal si Overleaf no lo detecta automáticamente.
+5. Abrir la configuración del proyecto.
+6. Seleccionar **pdfLaTeX** como compilador.
+7. Establecer `ERS_SRS_2B_v2.0.tex` como documento principal.
 8. Presionar **Recompile**.
-9. Confirmar que el PDF se genera sin error fatal.
+9. Confirmar que el PDF se genera sin errores fatales.
 
 No se deben cambiar los nombres ni mover los archivos de `assets/`, porque la fuente LaTeX los referencia mediante rutas relativas.
 
 ## 6. Estructura esperada de `01_ERS/`
 
-```text
-01_ERS/
-├── ERS_SRS_2B_v2.0.tex
-├── ERS_SRS_2B_v2.0.pdf
-├── referencias.bib
-├── README.md
-└── assets/
-```
+    01_ERS/
+    ├── ERS_SRS_2B_v2.0.tex
+    ├── ERS_SRS_2B_v2.0.pdf
+    ├── referencias.bib
+    ├── README.md
+    └── assets/
 
-No deben utilizarse como línea base final archivos anteriores llamados `main.tex`, `ERS_SRS_SICST_PE5_FINAL1.*` o documentos PE5. El historial Git conserva las versiones anteriores cuando sea necesario para auditoría.
+No deben utilizarse como línea base final archivos anteriores llamados `main.tex`, `ERS_SRS_SICST_PE5_FINAL1.*` u otros documentos correspondientes a PE5.
 
-## 7. Resultado esperado de la compilación
+Las versiones anteriores se mantienen únicamente en el historial Git cuando sean necesarias para auditoría.
 
-La línea base actual genera un PDF de **150 páginas**.
+## 7. Línea base documental
+
+La línea base actual corresponde a:
+
+**Entrega Final 2B — Versión 2.0**
+
+El archivo evaluable es:
+
+`ERS_SRS_2B_v2.0.pdf`
+
+La fuente reproducible es:
+
+`ERS_SRS_2B_v2.0.tex`
+
+## 8. Autores de la línea base actual
+
+Los integrantes declarados para la Entrega Final 2B son:
+
+- Contreras Chávez Kevin Germán
+- Zambrano Moya Angelo Paul
+
+Los nombres de participantes de etapas anteriores pueden permanecer en secciones históricas cuando correspondan, pero no se presentan como autores actuales de la línea base 2B.
+
+## 9. Resultado esperado de la compilación
+
+La compilación debe producir un PDF de aproximadamente **150 páginas**.
 
 Verificación mínima después de compilar:
 
 - existe `ERS_SRS_2B_v2.0.pdf`;
 - el PDF abre correctamente;
-- la portada indica Entrega 4 (2B / Defensa Final) y versión `2B-v2.0`;
+- la portada identifica la Entrega 4 (2B / Defensa Final);
+- la versión indicada es `2B-v2.0`;
+- los autores actuales son Kevin Germán Contreras Chávez y Angelo Paul Zambrano Moya;
 - las figuras y diagramas se muestran correctamente;
-- no aparecen errores fatales de archivo gráfico faltante;
-- el documento conserva las 60 trazas terminales declaradas y los casos de prueba funcionales CP-01 a CP-33.
+- no aparecen errores fatales de archivos gráficos faltantes;
+- el PDF fue producido desde la fuente LaTeX versionada.
 
-## 8. Bibliografía
+## 10. Reproducibilidad
 
-`referencias.bib` forma parte del paquete documental y centraliza las entradas bibliográficas verificadas del ERS. La fuente actual conserva el diseño documental ya consolidado y no requiere ejecutar `bibtex` para producir el PDF base. Por ello, el comando reproducible de esta versión utiliza únicamente XeLaTeX.
+La relación entre fuente y salida debe ser directa:
 
-## 9. Solución de errores comunes
+`ERS_SRS_2B_v2.0.tex` → pdfLaTeX → `ERS_SRS_2B_v2.0.pdf`
 
-### Error: `fontspec` requires XeTeX or LuaTeX
+El PDF publicado en el repositorio debe corresponder al resultado de esta compilación y no a una exportación realizada desde LibreOffice u otro procesador de documentos.
 
-Se está intentando compilar con `pdflatex`. Cambiar el compilador a **XeLaTeX**.
+## 11. Recursos gráficos
 
-### Error: `The font "Liberation Serif" cannot be found`
+La carpeta `assets/` contiene las imágenes utilizadas por la fuente LaTeX.
 
-Instalar las fuentes Liberation o utilizar una distribución/entorno LaTeX que las incluya. No sustituir fuentes en la versión evaluable sin volver a comprobar visualmente el PDF.
+Las rutas son relativas a `01_ERS/`.
 
-### Error: archivo de imagen no encontrado
+Ejemplos:
 
-Comprobar que la carpeta se llame exactamente:
+`assets/page-016-img-01.jpeg`
 
-```text
-assets
-```
+`assets/page-023-img-01.jpeg`
 
-y que permanezca en el mismo nivel que `ERS_SRS_2B_v2.0.tex`.
+`assets/page-027-img-01.png`
 
-### El PDF se genera pero una imagen no aparece
+Por este motivo, la carpeta `assets/` debe mantenerse junto al archivo `.tex`.
 
-Verificar que todos los archivos de `assets/` fueron descargados o subidos. GitHub/Overleaf debe conservar nombres y extensiones exactamente.
+## 12. Verificación final
 
-## 10. Línea base documental
+Antes de congelar la versión definitiva:
 
-- **Proyecto:** Sistema Inteligente de Control y Seguimiento de Terapia Física (SICST)
-- **Entrega:** 4 (2B / Defensa Final)
-- **Versión:** `2B-v2.0`
-- **Fecha de consolidación:** 01/09/2026
-- **Requisitos funcionales:** 33
-- **Requisitos no funcionales generales:** 15
-- **Trazas terminales declaradas:** 60
-- **Casos de prueba funcionales documentados:** CP-01 a CP-33
+1. compilar dos veces con pdfLaTeX;
+2. confirmar que no existan errores fatales;
+3. abrir y revisar el PDF generado;
+4. verificar portada, autores y versión;
+5. sustituir en GitHub el PDF anterior por el generado mediante pdfLaTeX;
+6. mantener el `.tex` que produjo exactamente dicho PDF;
+7. generar checksums únicamente después de finalizar todos los cambios.
 
-## 11. Separación de evidencias
+---
 
-Esta carpeta contiene únicamente la línea base documental del ERS/SRS.
-
-Las evidencias humanas y de trabajo de campo no se duplican aquí. Consentimientos, archivos audiovisuales, transcripciones, cuestionarios, respuestas, documentos organizacionales, walkthrough, member checking y codificación temática se organizan en `02_Evidencias/` según las zonas pública y restringida definidas para el proyecto.
-
-## 12. Reproducibilidad
-
-Para reproducir el ERS/SRS desde cero:
-
-1. clonar o descargar el repositorio;
-2. ingresar a `01_ERS/`;
-3. comprobar que `assets/` está presente;
-4. disponer de XeLaTeX y las fuentes Liberation;
-5. ejecutar dos veces el comando de compilación indicado en la Sección 4;
-6. abrir `ERS_SRS_2B_v2.0.pdf` y verificar el resultado esperado.
-
-La fuente `.tex`, el PDF generado, la bibliografía y los recursos gráficos se versionan juntos para permitir auditoría y reproducción del documento.
+**Proyecto:** Sistema Inteligente de Control y Seguimiento de Terapia Física — SICST  
+**Entrega:** Final 2B  
+**Versión:** 2.0  
+**Compilador:** pdfLaTeX
