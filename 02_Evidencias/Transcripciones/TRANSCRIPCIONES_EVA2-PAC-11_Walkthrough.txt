@@ -1,0 +1,35 @@
+﻿Lo voy a empezar a mostrar unas interfaces y una pregunta. ¿La pantalla se entiende fácilmente?
+Sí, se entiende. ¿Qué ejercicios debo realizar?
+¿Las indicaciones de la rutina son claras?
+Sí, la información es suficiente para seguir la rutina.
+¿El detalle del ejercicio ayuda a comprender qué debe hacer?
+Sí, el formulario para regular dolor y fatiga es fácil de utilizar.
+¿Por cuál vas?
+Repuesto. ¿Por eso se entiende de forma sencilla?
+Sí, los porcentajes y gráficos ayudan a ver el progreso.
+¿Los recordatorios les parecen útiles para cumplir la rutina?
+Sí, los recordatorios ayudan a mantener la constancia.
+Listo. Gracias por su tiempo en la entrevista de las interfaces.
+¿El progreso se entiende de forma sencilla?
+Sí, los controles para seleccionar el nivel de dolor y fatiga son sencillos y rápidos de completar.
+¿Los recordatorios les parecen útiles para cumplir la rutina?
+Sí, los gráficos y porcentajes permiten ver fácilmente cómo va la recuperación.
+Listo. Eso ha sido todo la entrevista. Gracias por su tiempo.
+Ya, gracias.
+Voy a empezar a mostrar algunas interfaces y una pregunta. ¿La pantalla se entiende fácilmente?
+Sí, se entiende qué ejercicios debo realizar.
+¿Las indicaciones de la rutina son claras?
+Sí, la información es suficiente para seguir la rutina.
+¿El detalle del ejercicio ayuda a comprender qué debe hacer?
+Sí, el formulario para regular dolor y fatiga es fácil.
+¿Y el formulario para el recorrido?
+Sí, el formulario es fácil.
+Sí, el formulario para regular dolor y fatiga es fácil de utilizar.
+¿Por cuál vas?
+Repuesto. ¿El progreso se entiende de forma sencilla?
+Sí, los porcentajes y gráficos ayudan a ver el progreso.
+¿Los recoratorios le parecen útiles para cumplir la rutina?
+Sí, los recoratorios ayudan a mantener la constancia.
+Listo. Gracias por su tiempo en la entrevista de las interfaces.
+Sí, los recoratorios ayudan a mantener la constancia.
+Listo. Gracias por su tiempo en la entrevista de las interfaces.

@@ -1,0 +1,32 @@
+﻿En continuación les voy a mostrar unos módulos que tenemos, que es lo que tenemos planeado hacer del sistema.
+Y de aquí usted me va diciendo si de repente le entiende o no.
+Y en caso de no entender me dice más o menos de aquí le veo difícil de entender y más o menos una explicación.
+Primero lo que vamos a comentar es lo que tenemos en pantalla principal.
+Aquí en la aplicación va a poder ver cuántas rutinas pendientes es que la licenciadora le mandó ejercicios de aceleración a casa.
+Usted ve que aquí tiene pendiente los ejercicios, cuántas ustedes han hecho.
+Si usted puede mandarle a la fisioterapeuta cuánto dolar ha tenido y recordatorio que es cuánto usted puede poner como una alarma para que le mande la notificación el día y la hora de conceptión.
+Aquí primero que nada vamos a tener en la pantalla principal los ejercicios que la fisioterapeuta le mandó para el día de hoy.
+Aquí podemos ver que en la pantalla primero están los ejercicios que tiene que realizar.
+Como por ejemplo aquí tenemos que es elevación de pierna que está para las 5 de la tarde y que sale pendiente porque no lo ha ejecutado todavía, no lo ha hecho.
+Y así mismo con lo demás. Y aquí la notificación es aquí como que la avisa que dice usted tiene que hacer un ejercicio y un consejo.
+También que si de repente usted ya tiene dolor ya deja hacer el ejercicio.
+En esta pantalla principal usted viene así de ¿logra entender o siente que algo está difícil o debería ser diferente?
+¿Viendo así no? ¿Viendo de la pantalla?
+Creo que sí.
+Está medio difícil de entender.
+¿O está siente que se le haga en otro lado como algo, una letra grande lo que debe hacer, un poquito lugar y no tener cosas más claras?
+Claro, cosas.
+Entonces, seguimos con el siguiente, lo cual es el módulo que tenemos de rutina que también es lo mismo, pero solo que aquí va a ir con un video.
+Pero como ahora todavía no estamos recién, es como un modelo todavía no se puede ver.
+Aquí tenemos la parte de rutina que usted va a poder ver, las rutinas que usted tiene.
+Según viendo esta pantalla usted más o menos logra entender lo que tiene que hacer porque aquí primero que nada vamos a ver que hay lo que es el ejercicio que tiene que hacer.
+Por ejemplo la elevación de piernas, aquí mismo le dice cuántas veces tiene que hacer, a qué hora y te da una indicación que dice que pasa este ejercicio.
+Usted debe sentarse, elevar la pierna lentamente, mantener tres segundos y bajar sin bruscarar.
+Así usted cuando ya termina de hacer el ejercicio, usted le pone aquí marcar como completada y al fisioterapeuta ya le lleva una notificación de que usted ya había realizado este ejercicio.
+¿Usted viendo en la pantalla así nomás también logra entender o siente que todavía está algo difícil de entender?
+Según lo que usted me dice está sin tiempo.
+Y en caso de que usted sin explicarle bien esta pantalla le logra entender.
+Es que ahorita no tengo ni idea de qué ha sido el video.
+Aquí vamos con lo que es después con los ejercicios guiados que va a ser como que usted va a poder aquí ver un video del ejercicio.
+Y con esto del ejercicio usted ya puede poner autorización a la cámara y con todo eso ya usted realiza.
+Y eso es aquí todo.

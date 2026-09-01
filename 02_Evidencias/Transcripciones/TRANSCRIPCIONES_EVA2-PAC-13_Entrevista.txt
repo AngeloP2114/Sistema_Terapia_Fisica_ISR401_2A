@@ -1,0 +1,38 @@
+﻿La entrevista será grabada para fines académicos.
+Empezamos con la primera pregunta.
+¿Ha recibido terapia física o por revertidación? ¿Por qué motivo general?
+Sí, por un fuerte dolor en la espalda abajo.
+¿Durante su terapia recibió este ejercicio para realizar en casa?
+Sí.
+¿Qué indicación de verdad?
+Me enviaron una rutina para hacer en casa.
+¿Qué indicaciones le daba el fisioterapeuta sobre los ejercicios para la casa?
+Me invito a la repetición y cuidar la postura.
+¿Alguna vez olvidó cómo hacer un ejercicio, cuántas repeticiones hacer o cuándo realizarlo?
+Sí, olvidaba algunas repeticiones y horarios.
+¿Qué dificultades tuvo el realizar el ejercicio sin supervisión?
+No sabía si así había más movimientos.
+¿Qué le ayudaba a recordar o cumplir con sus ejercicios?
+Las alarmas del celular me ayudaban mucho a recordar.
+¿Qué información le hubiera gustado tener más claro durante su tratamiento?
+Me hubiera gustado conocer mejor mi proceso.
+Ya.
+Ahora le voy a pasar a mostrar unas interfaces y unas preguntas.
+Ya.
+¿La pantalla se entiende fácilmente?
+Sí, los menús son claros y las informaciones están bien organizadas.
+¿Las indicaciones de la rutina son claras?
+Sí, se entiende que ejercicio realizar y las repeticiones asignadas.
+¿El detalle del ejercicio ayuda a comprender qué hacer?
+Sí, se entiende que el ejercicio realizar y las repeticiones asignadas.
+¿El registro de dolor y fatiga le parece fácil de usar?
+Sí, se facilita recordar los ejercicios aprendidos en terapia.
+¿El progreso se entiende de forma sencilla?
+Sí, es rápido, registra cómo se siente después de la rutina.
+¿Los recordatorios le parecen útiles para cumplir la rutina?
+Sí, los gráficos permiten ver fácilmente mi evolución.
+¿Tiene usted algunas observaciones con las interfaces mostradas?
+Sí, la aplicación es fácil de usar y permite conocer avance de la recuperación de manera sencilla.
+¿Algún cambio sugerido?
+Agregar videos de todos los ejercicios, mostrar el tiempo estimado para completar cada rutina.
+Listo, eso ha sido por la entrevista y gracias por su tiempo.

@@ -1,0 +1,44 @@
+﻿Ahora tenemos lo que es el módulo, la presentación de los módulos,
+en los cuales vamos a realizar la siguiente pregunta, en fin,
+para ver su opinión.
+Primero que nada estamos en el módulo principal,
+en donde vas a tener distinta información,
+y con esto comenzamos la primera pregunta.
+Según lo que ve, la pantalla se entiende fácilmente o no?
+Sí.
+Listo.
+La siguiente pregunta es,
+las indicaciones de la rutina son claras
+en la siguiente pantalla que vemos acá.
+Ve claro la información de las rutinas o todo eso,
+o piensa que debería hacerlo de otra manera?
+No, está claro, suena.
+Listo.
+El detalle del ejercicio que puede visualizar aquí,
+siente que está correcto así las descripciones,
+o debería ser algo más, un poco más específico?
+Está correcto.
+Listo.
+Vamos con lo que es el registro del dolor.
+En registro del dolor, perdón, siente que está correcto ahí,
+o debería ser lo de otro modelo,
+como para que usted seleccione el dolor que tiene?
+Está correcto.
+Seguimos con lo que es el progreso.
+Según lo que puede visualizar en pantalla,
+se le hace fácil entender el progreso que usted lleva,
+o siente que está confuso la manera de entenderlo?
+Está correcto el proceso que está.
+Después vamos con los recordatorios.
+Aquí en la pantalla de visualizar cómo crear recordatorios,
+¿cree que está fácil de entender cómo crearlos y verlos o no?
+Sí, fácil.
+Ok.
+En la sección de previsión,
+¿usted puede ver y le queda claro cuándo se utilizaría la cámara
+o información personal?
+Información personal.
+Listo.
+Con todo esto ya daríamos por finalizado
+lo que es la parte de interfaz.
+Muchas gracias.

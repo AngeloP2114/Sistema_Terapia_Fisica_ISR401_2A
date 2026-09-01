@@ -1,0 +1,41 @@
+﻿Pregunta, ¿la pantalla se entiende fácilmente?
+Sí, los menús son claros y las informaciones están bien organizadas.
+¿Las indicaciones de la rutina son claras?
+Sí, se entiende que ejercicio es realizar y las repeticiones es asignar.
+¿A qué tal le puedo montar otra interfaz?
+¿A qué tal le puedo montar otra interfaz?
+¿A qué tal le puedo montar otra interfaz?
+¿El detalle del ejercicio ayuda a comprender qué hacer?
+Sí, sí se entiende que el ejercicio es realizar y las repeticiones es asignar.
+Sí, este, sí se va.
+¿El registro de dolor y fatiga le parece...?
+¿El registro de dolor y fatiga le parece fácil de usar?
+Sí, este, sí se facilita recordar los ejercicios aprendidos en terapia.
+¿El progreso se entiende de forma sencilla?
+Sí, es rápido, registra cómo se siente después de la rutina.
+¿Los recordatorios le parece útiles para cumplir la rutina?
+Sí, los gráficos permiten ver fácilmente mi evolución.
+Por ahí, ahí está una parte mami que dice...
+¿Tiene usted algunas observaciones con las interfaces mostradas?
+Sí, la aplicación es fácil de usar y permite conocer avance de la recuperación de manera sencilla.
+¿Algún cambio sugerido?
+Agregar videos de todos los ejercicios, mostrar el tiempo estimado para completar cada rutina.
+Listo, eso ha sido por la entrevista y gracias por su tiempo.
+¿La pantalla se entiende fácilmente?
+Sí, los menús son claros y informaciones están bien organizadas.
+¿Las indicaciones de la rutina son claras?
+Sí, se entiende que ejercicio es realizar y las repeticiones asignadas.
+¿El detalle del ejercicio ayuda a comprender qué hacer?
+Sí, se entiende que el ejercicio es realizar y las repeticiones asignadas.
+¿El registro de dolor y fatiga le parece fácil de usar?
+Sí, se facilita recordar los ejercicios aprendidos en terapia.
+¿El progreso se entiende de forma sencilla?
+Sí, es rápido, registra cómo se siente después de la rutina.
+¿Los recordatorios les parecen útiles para cumplir la rutina?
+Sí, los gráficos permiten ver fácilmente mi evolución.
+¿Tiene usted algunas observaciones con las interfaces mostradas?
+Sí, la aplicación es fácil de usar y permite conocer avances de la recuperación de manera sencilla.
+¿Algún cambio sugerido?
+Agregar videos de todos los ejercicios, mostrar el tiempo estimado para completar cada rutina.
+Listo, eso ha sido la entrevista y gracias por su tiempo.
+¡Gracias por ver!

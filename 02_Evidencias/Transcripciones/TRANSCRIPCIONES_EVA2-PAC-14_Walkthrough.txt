@@ -1,0 +1,17 @@
+﻿Si, los controles para seleccionar el nivel de dolor y fatiga son sencillos y rápidos de completar.
+Los recordatorios les parece útiles para cumplir la rutina.
+Si, los gráficos y porcentaje permiten ver fácilmente cómo va la recuperación.
+Y eso ha sido toda la entrevista, gracias por su tiempo.
+Lo voy a empezar a mostrar unas interfaces y una pregunta. ¿La pantalla se entiende fácilmente?
+Si, se entiende, y ejercicios debo realizar.
+¿Las indicaciones de la rutina son claras?
+Si, la información es suficiente para seguir la rutina.
+¿El detalle del ejercicio ayuda a comprender qué debe hacer?
+Si, el formulario para regular dolor y fatiga es fácil de utilizar.
+¿Por cuál vas?
+Repuesto.
+¿El por eso se entiende de forma sencilla?
+Si, los porcentajes y gráficos ayudan a ver el progreso.
+¿Los recordatorios les parecen útiles para cumplir la rutina?
+Si, los recordatorios ayudan a mantener la constancia.
+Listo, gracias por su tiempo en la entrevista de las interfaces.

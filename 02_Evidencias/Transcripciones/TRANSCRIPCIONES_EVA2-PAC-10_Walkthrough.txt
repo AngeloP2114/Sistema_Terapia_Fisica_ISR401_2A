@@ -1,0 +1,15 @@
+﻿Entonces empezamos con las preguntas de las interfaces.
+¿La pantalla se entiende fácilmente?
+Sí, todo está bien estereodio y es fácil de entender.
+¿Las indicaciones de las rutinas son claras?
+Sí, las rutinas muestran horarios y repeticiones.
+Bien, entonces pasamos a otra interfaz.
+¿El detalle del ejercicio ayuda a comprender qué se debe hacer?
+Sí, la información ayuda a recordar los movimientos.
+¿El registro de dolor y fatiga le parece fácil de usar?
+Sí, el registro de dolor es sencillo.
+¿El progreso se entiende de forma sencilla?
+Sí, los gráficos permiten identificar si estoy mejorando.
+¿Tiene usted algunas observaciones? ¿Puede ver estas interfaces?
+Sí, la aplicación facilita continuar la rehabilitación desde el CASI y mantiene organizada la información.
+¿Qué es lo que usted está haciendo?
