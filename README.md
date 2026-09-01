@@ -1,11 +1,12 @@
 # SICST — Sistema Inteligente de Control y Seguimiento de Terapia Física
 
-Repositorio final del Proyecto Integrador de Ingeniería de Requisitos — PE5.
+Repositorio de la **Entrega Final 2B** del Proyecto Integrador de la asignatura **Ingeniería de Requerimientos — ISR-401**.
 
 **Universidad:** Universidad Técnica Estatal de Quevedo  
 **Carrera:** Ingeniería de Software  
 **Asignatura:** Ingeniería de Requerimientos ISR-401  
 **Periodo académico:** 2026–2027  
+**Versión documental:** 2.0 — Entrega Final 2B  
 
 ## Integrantes
 
@@ -16,96 +17,251 @@ Repositorio final del Proyecto Integrador de Ingeniería de Requisitos — PE5.
 
 ---
 
-# Entregables principales PE5
+# Descripción del proyecto
 
-## 1. ERS/SRS final
+El **Sistema Inteligente de Control y Seguimiento de Terapia Física (SICST)** es un prototipo académico orientado a apoyar el seguimiento de pacientes que realizan parte de sus rutinas terapéuticas fuera del centro de rehabilitación.
 
-PDF consolidado:
+El proyecto integra actividades de:
 
-`01_ERS/ERS_SRS_SICST_PE5_FINAL1.pdf`
+- ingeniería de requisitos;
+- elicitación y validación;
+- evidencia de trabajo de campo;
+- modelado UML;
+- trazabilidad;
+- producto mínimo viable;
+- experimentación;
+- preparación de publicación académica;
+- privacidad y gestión ética;
+- defensa final.
 
-Versión editable:
+SICST se plantea como una herramienta de apoyo y no sustituye la valoración, diagnóstico ni decisión del profesional de salud.
 
-`01_ERS/ERS_SRS_SICST_PE5_FINAL1.docx`
+---
 
-Fuente LaTeX principal:
+# Línea base vigente
 
-`01_ERS/main.tex`
+La línea base vigente del repositorio corresponde a:
 
-Recursos:
+**Entrega Final 2B — versión 2.0**
+
+La carpeta `PE5_Informe_Final/` se conserva únicamente como **antecedente histórico** correspondiente a la Práctica Experimental 5.
+
+Los documentos, simulaciones, métricas y materiales almacenados en PE5 no sustituyen los artefactos finales requeridos para la Entrega Final 2B.
+
+---
+
+# Estructura principal
+
+Sistema_Terapia_Fisica_ISR401_2A/
+│
+├── 01_ERS/
+├── 02_Evidencias/
+├── 03_Modelado/
+├── 04_Trazabilidad/
+├── 05_MVP/
+├── 06_Experimento/
+├── 07_Publicacion/
+├── 08_Etica/
+├── Defensa/
+├── PE5_Informe_Final/
+│
+├── CHANGELOG.md
+├── CITATION.cff
+├── LICENSE
+├── README.md
+├── .gitignore
+└── .gitattributes
+
+La carpeta `Defensa/` será organizada como `09_Defensa/` en la línea base final cuando se complete la normalización de la estructura.
+
+---
+
+# 1. ERS / SRS — Entrega Final 2B
+
+La especificación vigente del proyecto se encuentra en:
+
+01_ERS/
+├── ERS_SRS_2B_v2.0.pdf
+├── ERS_SRS_2B_v2.0.tex
+├── referencias.bib
+├── assets/
+└── README.md
+
+## Archivo PDF evaluable
+
+`01_ERS/ERS_SRS_2B_v2.0.pdf`
+
+## Fuente LaTeX
+
+`01_ERS/ERS_SRS_2B_v2.0.tex`
+
+## Bibliografía
+
+`01_ERS/referencias.bib`
+
+## Recursos gráficos
 
 `01_ERS/assets/`
 
-### Compilación del ERS/SRS
+## Compilación del ERS/SRS
 
-El ERS/SRS utiliza **pdfLaTeX**.
+El documento debe compilarse utilizando **XeLaTeX**.
 
-```bash
-cd 01_ERS
-pdflatex main.tex
-pdflatex main.tex
-```
+Desde la carpeta `01_ERS/` ejecutar:
 
----
+    xelatex -interaction=nonstopmode -halt-on-error ERS_SRS_2B_v2.0.tex
+    xelatex -interaction=nonstopmode -halt-on-error ERS_SRS_2B_v2.0.tex
 
-## 2. Informe Final PE5
-
-PDF final:
-
-`PE5_Informe_Final/PE5_U5_PFC_Final_MORAN_CONTRERAS_VITERI_ZAMBRANO.pdf`
-
-Fuente principal:
-
-`PE5_Informe_Final/main.tex`
-
-Bibliografía complementaria:
-
-`PE5_Informe_Final/references.bib`
-
-Figuras requeridas:
-
-`PE5_Informe_Final/figuras/`
-
-Material de defensa:
-
-`PE5_Informe_Final/Defensa/`
+La segunda compilación permite estabilizar referencias y elementos internos del documento.
 
 ---
 
-## 3. Matriz de trazabilidad final
+# 2. Evidencias del trabajo de campo
 
-La fuente canónica de trazabilidad de la línea base PE5 es:
+Las evidencias se encuentran organizadas en:
+
+`02_Evidencias/`
+
+La estructura contempla:
+
+02_Evidencias/
+├── 00_Restringido/
+├── Codificacion_Tematica/
+├── Consentimientos/
+├── Cuestionario/
+├── Documentos_Organizacion/
+├── Fotos_Aplicacion/
+├── Fotos_Entorno/
+├── Member_Checking/
+├── Respuestas/
+├── Transcripciones/
+├── Validacion_Walkthrough/
+├── fichas_tecnicas.csv
+└── README.md
+
+Las evidencias incluyen:
+
+- consentimientos informados;
+- cuestionario de necesidades;
+- respuestas del cuestionario;
+- fotografías de contexto;
+- fotografías de aplicación;
+- documentos utilizados en el contexto de terapia física;
+- sesiones walkthrough;
+- Member Checking;
+- transcripciones;
+- análisis cualitativo;
+- archivos multimedia.
+
+---
+
+## Evidencia multimedia
+
+El inventario técnico de la evidencia multimedia se encuentra en:
+
+`02_Evidencias/fichas_tecnicas.csv`
+
+El inventario actual contiene:
+
+- **31 videos**
+- **16 audios**
+- **47 archivos multimedia**
+- **282,82 minutos de material multimedia**
+
+Cada registro contiene información como:
+
+- nombre del archivo;
+- tipo;
+- ruta relativa;
+- duración;
+- formato;
+- códec;
+- tamaño;
+- hash SHA-256.
+
+La ficha permite verificar la integridad de los archivos sin necesidad de publicar directamente el contenido sensible.
+
+---
+
+# 3. Evidencia restringida
+
+Los materiales originales que pueden contener información identificable se mantienen separados de la evidencia pública.
+
+Ubicación:
+
+`02_Evidencias/00_Restringido/`
+
+Entre estos materiales pueden encontrarse:
+
+- grabaciones originales;
+- audios;
+- consentimientos completos;
+- fotografías identificables;
+- actas originales;
+- grabaciones de walkthrough;
+- evidencia relacionada con Member Checking.
+
+La contraseña o mecanismo de acceso a la evidencia restringida no se publica en el repositorio.
+
+---
+
+# 4. Privacidad
+
+No deben publicarse abiertamente datos que permitan identificar directamente a los participantes.
+
+Esto incluye:
+
+- números de cédula;
+- teléfonos;
+- correos electrónicos;
+- direcciones;
+- firmas;
+- voces identificables;
+- rostros identificables;
+- diagnósticos asociados directamente a una persona;
+- cualquier otro dato personal sensible.
+
+Las versiones públicas utilizan códigos de participante y mecanismos de anonimización cuando corresponde.
+
+---
+
+# 5. Trazabilidad
+
+Los artefactos de trazabilidad se encuentran en:
+
+`04_Trazabilidad/`
+
+Actualmente esta carpeta conserva la matriz consolidada utilizada durante PE5 y los artefactos de priorización relacionados.
+
+La matriz histórica visible corresponde a:
 
 `04_Trazabilidad/Matriz_Trazabilidad_Final_PE5_Rubrica.csv`
 
-La matriz contiene **58 trazas** y utiliza la cadena:
+Esta versión contiene **58 trazas documentales** y se conserva como antecedente verificable.
 
-**Fuente → RF/RNF → CU → Clase UML → Estado → BDD → CP**
+La matriz definitiva de la Entrega Final 2B debe actualizarse y verificarse antes de ser declarada como línea base final.
 
-Como campos complementarios mantiene Proceso DFD, Historia de Usuario, Prioridad y Estado de la Traza.
+No se presentan como cerradas trazas que todavía no hayan sido comprobadas contra sus artefactos correspondientes.
 
-La línea base contiene:
+La trazabilidad final busca relacionar progresivamente elementos como:
 
-- 33 RF;
-- 15 RNF generales;
-- 10 RNF específicos de IA;
-- 58 trazas totales.
+**Fuente / Norma → Objetivo → Stakeholder → Evidencia → Requisito → Caso de Uso → Historia de Usuario → BDD → UML → Proceso → Componente → Mockup → Caso de Prueba**
 
 La priorización complementaria se encuentra en:
 
 `04_Trazabilidad/priorizacion_moscow_kano.csv`
 
-En ese archivo, `MoSCoW_PE5` refleja la prioridad vigente de la matriz final. Las columnas terminadas en `_2A` preservan la evaluación histórica de Kano/valor/WSJF y no se presentan como una nueva medición PE5.
+Los datos históricos provenientes de etapas anteriores se mantienen identificados como tales para evitar reinterpretarlos como nuevas mediciones de la Entrega Final 2B.
 
 ---
 
-## 4. Modelado
+# 6. Modelado
 
-Artefactos:
+Los modelos del sistema se encuentran en:
 
 `03_Modelado/`
 
-Incluye:
+Los artefactos disponibles incluyen modelos relacionados con:
 
 - contexto;
 - i* SD/SR;
@@ -116,281 +272,332 @@ Incluye:
 - clases;
 - componentes;
 - despliegue;
-- DFD nivel 1;
+- procesos;
+- DFD;
 - mockups.
+
+Estos artefactos representan distintos puntos de vista del comportamiento, estructura y arquitectura del SICST.
 
 ---
 
-## 5. MVP
+# 7. Producto Mínimo Viable
 
-El prototipo se encuentra en:
+El prototipo del sistema se encuentra en:
 
 `05_MVP/`
 
-Aplicaciones:
+El MVP contiene los componentes desarrollados para representar las funcionalidades principales del SICST.
 
-- `05_MVP/SICST_Fisioterapeuta_APP/`
-- `05_MVP/SICST_Paciente_APP/`
+Las aplicaciones desarrolladas se encuentran dentro de la estructura de `05_MVP/`.
 
-Cada aplicación contiene código fuente web (`index.html`, `css/`, `js/`) y material de demostración.
+Las funciones mostradas durante la evaluación deben corresponder únicamente a características que realmente se encuentren implementadas.
+
+La presencia de un requisito, mockup o caso de uso no implica automáticamente que dicha función se encuentre implementada en el MVP.
 
 ---
 
-## 6. Experimento y métricas PE5
+# 8. Experimento — Entrega Final 2B
 
-Carpeta:
+El material experimental se encuentra en:
 
 `06_Experimento/`
 
-Los archivos `resultados/ronda1.csv` y `resultados/ronda2.csv` corresponden a una **simulación controlada con datos sintéticos** para ejercitar el protocolo de explicabilidad.
+La carpeta conserva tanto artefactos históricos de PE5 como material de preparación para el experimento correspondiente a la Entrega Final 2B.
 
-No representan participantes reales ni constituyen validación clínica.
+Para la Entrega Final 2B, el enfoque experimental asignado al SICST consiste en:
 
-Script de explicabilidad:
+**Comparar requisitos funcionales obtenidos mediante elicitación humana con requisitos funcionales generados mediante un modelo de lenguaje, utilizando como entrada las mismas transcripciones anonimizadas.**
 
-`06_Experimento/scripts_analisis/analizar_explicabilidad.py`
+La evaluación contempla criterios como:
 
-Artefactos de métricas:
+- completitud;
+- ausencia de ambigüedad;
+- verificabilidad;
+- corrección de la fuente;
+- consistencia interna;
+- trazabilidad;
+- acuerdo entre evaluadores.
 
-`06_Experimento/Metricas_PE5/`
+Los ejercicios sintéticos realizados durante PE5 se conservan únicamente como antecedentes metodológicos.
 
-Archivos principales:
+No se presentan como resultados empíricos obtenidos de participantes reales.
 
-- `auditoria_metricas_PE5.csv`
-- `auditoria_consistencia_pares.csv`
-- `impacto_modificabilidad.csv`
-- `reinspeccion_fagan.csv`
-- `calcular_metricas.py`
+Los artefactos experimentales deben mantenerse organizados en elementos como:
 
-### Reproducción de métricas
-
-Desde la raíz del repositorio:
-
-```bash
-python 06_Experimento/Metricas_PE5/calcular_metricas.py
-```
-
-Resultados esperados:
-
-- M1a: 58/58 = 100 %
-- M1b: 10/10 = 100 %
-- M1c: 4/4 = 100 %
-- M2: 1 - 0/10 = 1,00
-- M3: 58/58 = 100 %
-- M4a: 33/33 = 100 %
-- M4b: 33/33 = 100 %
-- M5: 13/5 = 2,60
-- M6: 0/58 = 0,000
+- protocolo;
+- instrumentos;
+- prompts utilizados;
+- datos de entrada;
+- datos procesados;
+- resultados;
+- scripts de análisis;
+- documentación de reproducibilidad.
 
 ---
 
-## 7. Publicación académica
+# 9. Antecedente histórico PE5
 
-Carpeta:
+La carpeta:
+
+`PE5_Informe_Final/`
+
+contiene el cierre correspondiente a la Práctica Experimental 5.
+
+Incluye:
+
+- informe PE5;
+- fuente LaTeX;
+- bibliografía;
+- figuras;
+- métricas;
+- simulaciones controladas;
+- presentación utilizada durante esa etapa.
+
+Este material se conserva para mantener trazabilidad histórica del desarrollo del proyecto.
+
+No constituye por sí solo la Entrega Final 2B.
+
+Los resultados de simulaciones sintéticas de PE5 no deben interpretarse como evidencia empírica humana correspondiente al experimento final.
+
+---
+
+# 10. Publicación académica
+
+La preparación para publicación académica se encuentra en:
 
 `07_Publicacion/`
 
-Incluye:
+Actualmente esta carpeta contiene:
 
 - `manuscrito_borrador.pdf`
 - `analisis_revistas.md`
 - `dataset_zenodo/`
+- `README.md`
 
-`dataset_zenodo/` representa una **preparación para depósito académico**. No implica por sí mismo la existencia de un DOI ni una publicación efectiva en Zenodo.
+El manuscrito se mantiene identificado como borrador mientras no exista una versión definitiva.
 
----
-
-## 8. Defensa
-
-Archivos:
-
-- `PE5_Informe_Final/Defensa/Defensa_PE5_SICST_FINAL.pptx`
-- `PE5_Informe_Final/Defensa/Defensa_PE5_SICST_FINAL.pdf`
+La publicación académica final deberá conservar coherencia con la evidencia, metodología y resultados realmente disponibles en el proyecto.
 
 ---
 
-## 9. Evidencias
+## Dataset preparado para depósito
 
-Las evidencias se organizan en:
+La carpeta:
 
-`02_Evidencias/`
+`07_Publicacion/dataset_zenodo/`
 
-Los originales identificables se mantienen en el contenedor cifrado:
+contiene material preparado para un eventual depósito académico.
 
-`02_Evidencias/00_Restringido/evidencias_restringidas.7z`
+Puede incluir:
 
-La contraseña no se publica en GitHub y se entrega por el medio institucional correspondiente.
+- metadatos;
+- licencia;
+- archivos anonimizados;
+- diccionario de datos;
+- matriz;
+- archivos de citación;
+- README del dataset.
 
-> La revisión final de privacidad, anonimización, historial y checksums de `02_Evidencias/` se realiza antes de congelar la línea base definitiva.
+La existencia de esta carpeta **no significa que exista actualmente un DOI publicado en Zenodo**.
 
----
+El DOI deberá incorporarse únicamente cuando se haya realizado un depósito real y definitivo.
 
-# Reproducción del Informe Final PE5 — G2
-
-## Compilador
-
-**XeLaTeX**
-
-## Archivo principal
-
-`PE5_Informe_Final/main.tex`
-
-## Clonación
-
-```bash
-git clone https://github.com/AngeloP2114/Sistema_Terapia_Fisica_ISR401_2A.git
-cd Sistema_Terapia_Fisica_ISR401_2A
-cd PE5_Informe_Final
-```
-
-## Comando exacto
-
-```bash
-latexmk -xelatex -interaction=nonstopmode main.tex
-```
-
-El comando debe generar:
-
-`main.pdf`
-
-El contenido de `main.pdf` corresponde al informe publicado como:
-
-`PE5_U5_PFC_Final_MORAN_CONTRERAS_VITERI_ZAMBRANO.pdf`
-
-## Limpieza
-
-```bash
-latexmk -c
-```
-
-Limpieza completa:
-
-```bash
-latexmk -C
-```
+De igual manera, identificadores como OSF o SWHID únicamente deben registrarse cuando existan realmente.
 
 ---
 
-# Dependencias del Informe Final
+# 11. Ética
 
-Se requiere una distribución TeX completa compatible con XeLaTeX, como TeX Live o MiKTeX, y `latexmk`.
+La documentación ética se encuentra en:
 
-Paquetes principales utilizados por `PE5_Informe_Final/main.tex`:
+`08_Etica/`
 
-- geometry
-- newtxtext
-- newtxmath
-- babel
-- graphicx
-- booktabs
-- longtable
-- array
-- tabularx
-- pdflscape
-- float
-- xcolor
-- enumitem
-- hyperref
-- microtype
-- cite
-- fancyhdr
-- setspace
-- titlesec
-- caption
-- lastpage
+La carpeta contiene documentos preparados para el proceso institucional relacionado con el proyecto.
 
-Además deben conservarse:
+Actualmente se incluyen documentos relacionados con:
 
-- `PE5_Informe_Final/figuras/`
-- `PE5_Informe_Final/references.bib`
+- protocolo de investigación;
+- instrumentos de recolección;
+- consentimiento informado;
+- plan de gestión de datos;
+- documentación de aval;
+- declaraciones de conflicto de intereses;
+- análisis de riesgos;
+- cronograma;
+- registros relacionados con ética.
 
-La bibliografía utilizada en el PDF se encuentra declarada en `main.tex`; `references.bib` se conserva como archivo bibliográfico complementario y sincronizado.
+Los documentos disponibles corresponden al material preparado para el proceso institucional.
+
+Las aprobaciones, avales o resoluciones que todavía no hayan sido emitidas oficialmente **no se presentan como aprobadas**.
+
+Las versiones definitivas serán incorporadas conservando su fecha real de emisión.
+
+Esta distinción permite mantener transparencia entre documentos preparados, documentos enviados y documentos oficialmente aprobados.
 
 ---
 
-# Estructura principal
+# 12. Defensa
 
-```text
-Sistema_Terapia_Fisica_ISR401_2A/
-│
-├── 01_ERS/
-├── 02_Evidencias/
-├── 03_Modelado/
-├── 04_Trazabilidad/
-├── 05_MVP/
-├── 06_Experimento/
-├── 07_Publicacion/
-├── PE5_Informe_Final/
-│   ├── Aportes/
-│   ├── Defensa/
-│   ├── figuras/
-│   ├── main.tex
-│   ├── references.bib
-│   ├── PE5_U5_PFC_Final_MORAN_CONTRERAS_VITERI_ZAMBRANO.pdf
-│   └── README.md
-├── CHANGELOG.md
-├── CITATION.cff
-├── LICENSE
-├── README.md
-├── .gitignore
-└── .gitattributes
-```
+Los materiales disponibles actualmente se encuentran en:
+
+`Defensa/`
+
+La carpeta contiene:
+
+- presentación en PDF;
+- presentación editable;
+- `guion.pdf`;
+- `folleto_una_hoja.pdf`;
+- README de la defensa.
+
+El video de defensa se incorporará únicamente cuando exista una grabación real.
+
+Para la línea base final se recomienda normalizar esta carpeta como:
+
+`09_Defensa/`
 
 ---
 
-# Fuentes canónicas de la línea base
+# 13. Inteligencia Artificial
 
-**ERS/SRS final**
+SICST contempla componentes inteligentes orientados al apoyo del seguimiento terapéutico.
 
-`01_ERS/ERS_SRS_SICST_PE5_FINAL1.pdf`
+Entre ellos se documentan:
 
-**Informe Final PE5**
-
-`PE5_Informe_Final/PE5_U5_PFC_Final_MORAN_CONTRERAS_VITERI_ZAMBRANO.pdf`
-
-**Matriz final**
-
-`04_Trazabilidad/Matriz_Trazabilidad_Final_PE5_Rubrica.csv`
-
----
-
-# Inteligencia Artificial
-
-El SICST documenta dos componentes de IA:
-
-1. análisis de movimiento por visión por computadora;
+1. análisis de movimiento mediante visión por computadora;
 2. priorización de alertas y recomendaciones.
 
-La especificación incorpora rendimiento, equidad, explicabilidad, privacidad, supervisión humana, fallback y monitoreo.
+Los requisitos asociados consideran aspectos como:
 
-Las salidas del sistema no se presentan como diagnóstico médico ni sustituyen la decisión profesional del fisioterapeuta.
+- rendimiento;
+- privacidad;
+- equidad;
+- explicabilidad;
+- supervisión humana;
+- monitoreo;
+- manejo de fallos.
 
----
-
-# Privacidad
-
-No deben publicarse abiertamente:
-
-- nombres completos de participantes;
-- cédulas;
-- teléfonos;
-- firmas;
-- rostros identificables;
-- voces identificables;
-- diagnósticos vinculados a una persona;
-- consentimientos sin anonimización.
-
-Los originales sensibles deben mantenerse en el mecanismo restringido del proyecto.
+Las salidas del sistema no se presentan como diagnóstico médico ni sustituyen la evaluación del fisioterapeuta.
 
 ---
 
-# Licencia
+# 14. Reproducibilidad
+
+Los artefactos reproducibles deben incluir instrucciones dentro de sus respectivos README.
+
+## Reproducción del ERS
+
+Ingresar a:
+
+`01_ERS/`
+
+y ejecutar:
+
+    xelatex -interaction=nonstopmode -halt-on-error ERS_SRS_2B_v2.0.tex
+    xelatex -interaction=nonstopmode -halt-on-error ERS_SRS_2B_v2.0.tex
+
+El resultado esperado es:
+
+`ERS_SRS_2B_v2.0.pdf`
+
+## Verificación SHA-256
+
+En PowerShell puede utilizarse:
+
+    Get-FileHash -Algorithm SHA256 "ruta\archivo"
+
+El resultado puede compararse con los valores almacenados en:
+
+`02_Evidencias/fichas_tecnicas.csv`
+
+Esto permite comprobar que un archivo no haya sido modificado respecto al archivo inventariado.
+
+---
+
+# 15. Integridad del repositorio
+
+Los hashes generales del repositorio deben generarse únicamente después de congelar la línea base definitiva.
+
+No deben mantenerse checksums antiguos después de modificar archivos.
+
+El archivo esperado para la línea base final es:
+
+`checksums.sha256`
+
+Este archivo debe generarse al final del proceso de preparación y antes de crear la versión definitiva del repositorio.
+
+---
+
+# 16. Citación
+
+La información de citación del proyecto se encuentra en:
+
+`CITATION.cff`
+
+Este archivo debe mantenerse sincronizado con la versión vigente del proyecto.
+
+La versión correspondiente a la línea base final será:
+
+**2.0**
+
+Los identificadores persistentes como:
+
+- DOI de Zenodo;
+- SWHID;
+- identificadores OSF;
+
+solo deben incorporarse cuando hayan sido generados realmente.
+
+No deben utilizarse valores ficticios, provisionales o de ejemplo como si fueran definitivos.
+
+---
+
+# 17. Licencia
 
 La licencia general del repositorio se encuentra en:
 
 `LICENSE`
 
-Los datasets o materiales específicos pueden incluir condiciones adicionales dentro de sus propias carpetas.
+La licencia aplicada al código fuente no implica autorización automática para redistribuir evidencia sensible o identificable.
+
+Los datasets, documentos o materiales específicos pueden incluir condiciones adicionales dentro de sus respectivas carpetas.
+
+El material restringido no debe redistribuirse públicamente.
+
+---
+
+# 18. Control de versiones
+
+Las modificaciones relevantes del proyecto se documentan en:
+
+`CHANGELOG.md`
+
+La línea base definitiva de la Entrega Final 2B se identificará mediante una versión estable una vez completada la revisión del repositorio.
+
+La etiqueta recomendada para la línea base final es:
+
+`v2.0`
+
+La etiqueta debe crearse únicamente después de finalizar:
+
+- revisión de los artefactos;
+- revisión de privacidad;
+- actualización de README;
+- actualización de CITATION.cff;
+- actualización de CHANGELOG.md;
+- generación de checksums;
+- verificación final de la estructura.
+
+---
+
+# 19. Estado de la Entrega Final
+
+**Proyecto:** Sistema Inteligente de Control y Seguimiento de Terapia Física — SICST  
+**Entrega:** Final 2B  
+**Versión:** 2.0  
+**Estado:** integración y cierre documental del paquete académico.
+
+Los artefactos pendientes de aprobación institucional o de ejecución real se identifican expresamente como pendientes y no se presentan como completados.
 
 ---
 
