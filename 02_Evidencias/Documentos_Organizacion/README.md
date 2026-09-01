@@ -1,31 +1,65 @@
-# Documentos de organización
+# Documentos de Organización - SICST
 
-Esta carpeta contiene documentos, formatos o evidencias documentales relacionadas con el proceso de terapia física y seguimiento de pacientes.
+Esta carpeta contiene documentos y formatos utilizados como evidencia documental del contexto de terapia física considerado en el proyecto **Sistema Inteligente de Control y Seguimiento de Terapia Física (SICST)**.
 
-Los documentos deben estar en blanco, anonimizados o sin datos personales sensibles, respetando la privacidad de los participantes.
+Los documentos permiten identificar información, actividades y procesos relacionados con la evaluación, planificación, seguimiento y control de la atención terapéutica.
 
-## Tipos de documentos esperados
+## Documentos incluidos
 
-- Ficha de evaluación física.
-- Ficha de paciente.
-- Registro de evolución terapéutica.
-- Plan de tratamiento.
-- Hoja de ejercicios.
-- Registro de asistencia.
-- Formato de control de dolor o fatiga.
-- Reporte de avance.
-- Formato de consentimiento o autorización de tratamiento.
+| Archivo | Tipo de documento |
+|---|---|
+| `Formato_Evaluacion_Fisica.docx` | Formato de evaluación física |
+| `Formato_Plan_Terapeutico_Domiciliario.docx` | Plan terapéutico domiciliario |
+| `Formato_Registro_Asistencia.docx` | Registro de asistencia |
+| `Formato_Registro_Evolucion_Terapeutica.docx` | Registro de evolución terapéutica |
+| `HCL - HOJA.docx` | Hoja / formato HCL |
 
-## Convención de nombres
+## Total de tipos documentales
 
-Ejemplos:
+Se incluyen **5 tipos diferentes de documentos** relacionados con el proceso de terapia física:
 
-- 2026-07-26_Formato_Evaluacion_Fisica.pdf
-- 2026-07-26_Formato_Registro_Evolucion.pdf
-- 2026-07-26_Formato_Plan_Terapeutico.pdf
-- 2026-07-26_Formato_Control_Asistencia.pdf
-- 2026-07-26_Formato_Reporte_Avance.pdf
+1. Evaluación física.
+2. Plan terapéutico domiciliario.
+3. Registro de asistencia.
+4. Registro de evolución terapéutica.
+5. Hoja HCL.
 
-## Nota de privacidad
+Estos documentos fueron considerados como fuentes documentales para comprender el contexto de trabajo, identificar datos relevantes y apoyar el proceso de levantamiento y análisis de requisitos de SICST.
 
-Los documentos incluidos deben evitar la exposición de nombres completos, números de cédula, diagnósticos sensibles, teléfonos, direcciones o firmas de pacientes reales.
+## Relación con el proyecto
+
+La revisión documental contribuye a identificar elementos que posteriormente pueden relacionarse con:
+
+- información requerida para la evaluación del paciente;
+- planificación de actividades terapéuticas;
+- seguimiento de ejercicios domiciliarios;
+- control de asistencia;
+- registro de la evolución durante el tratamiento;
+- información utilizada durante el seguimiento terapéutico.
+
+La información obtenida mediante esta técnica se complementa con entrevistas, cuestionarios, walkthroughs y demás evidencias empíricas del proyecto.
+
+## Privacidad
+
+Los documentos almacenados públicamente en esta carpeta deben encontrarse:
+
+- en blanco;
+- anonimizados; o
+- sin información personal identificable.
+
+No deben publicarse nombres completos, números de cédula, teléfonos, direcciones, firmas, diagnósticos asociados a una persona identificable ni otros datos personales de pacientes reales.
+
+Cuando exista una versión original con información identificable, esta debe conservarse únicamente dentro de la zona restringida y cifrada:
+
+`../00_Restringido/`
+
+## Estructura
+
+```text
+Documentos_Organizacion/
+├── Formato_Evaluacion_Fisica.docx
+├── Formato_Plan_Terapeutico_Domiciliario.docx
+├── Formato_Registro_Asistencia.docx
+├── Formato_Registro_Evolucion_Terapeutica.docx
+├── HCL - HOJA.docx
+└── README.md
