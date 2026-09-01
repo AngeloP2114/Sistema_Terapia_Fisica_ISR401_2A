@@ -2,25 +2,47 @@ cff-version: 1.2.0
 message: "Si utiliza este repositorio académico, cite este trabajo."
 title: "Sistema Inteligente de Control y Seguimiento de Terapia Física"
 type: software
-version: "PE5-Final"
-date-released: "2026-08-24"
+version: "2.0"
+date-released: "2026-09-01"
+
 authors:
   - family-names: "Morán Pilaguano"
     given-names: "Frixon Fernando"
+
   - family-names: "Contreras Chávez"
     given-names: "Kevin Germán"
+
   - family-names: "Viteri García"
     given-names: "Jonathan Enrique"
+
   - family-names: "Zambrano Moya"
     given-names: "Angelo Paul"
+
 repository-code: "https://github.com/AngeloP2114/Sistema_Terapia_Fisica_ISR401_2A"
+
+url: "https://github.com/AngeloP2114/Sistema_Terapia_Fisica_ISR401_2A"
+
 license: "MIT"
+
+abstract: >-
+  Sistema Inteligente de Control y Seguimiento de Terapia Física (SICST),
+  desarrollado como proyecto académico de Ingeniería de Requerimientos.
+  El repositorio integra la especificación ERS/SRS, evidencias de trabajo
+  de campo, modelado, trazabilidad, producto mínimo viable, protocolo
+  experimental, preparación para publicación académica, documentación
+  ética y materiales de defensa. El sistema se plantea como herramienta
+  de apoyo al seguimiento terapéutico y no sustituye la valoración,
+  diagnóstico ni decisión del profesional de salud.
+
 keywords:
-  - "Ingeniería de Requisitos"
+  - "Ingeniería de Requerimientos"
   - "Terapia Física"
+  - "SICST"
   - "ERS"
   - "SRS"
-  - "MVP"
   - "Trazabilidad"
+  - "MVP"
   - "Inteligencia Artificial"
-  - "Explicabilidad"
+  - "Elicitación de Requisitos"
+  - "Validación de Requisitos"
+  - "Ingeniería de Software"
