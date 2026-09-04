@@ -1,0 +1,13 @@
+codigo,categoria_padre,subtema,definicion
+SUB-01,Adherencia,Adherencia y recordatorios,"Olvido de rutinas, horarios o necesidad de alarmas y recordatorios."
+SUB-02,Comprensión,Instrucciones y dosificación,"Necesidad de conocer series, repeticiones, frecuencia, tiempo, descanso u orden de los ejercicios."
+SUB-03,Comprensión,Apoyo audiovisual,"Uso o necesidad de videos, imágenes o audio para comprender correctamente los ejercicios."
+SUB-04,Corrección,Supervisión y corrección de ejecución,"Necesidad de comprobar postura, movimiento o técnica correcta durante el ejercicio."
+SUB-05,Seguridad clínica,Registro de dolor y fatiga,"Necesidad de registrar dolor, cansancio, fatiga o dificultad asociada a la rutina."
+SUB-06,Seguimiento,Seguimiento del progreso,"Necesidad de conocer o comparar la evolución del paciente durante la recuperación."
+SUB-07,Seguimiento,Comunicación con fisioterapeuta,"Necesidad de mensajes, llamadas, consultas o retroalimentación entre sesiones."
+SUB-08,Privacidad,Privacidad de cámara y datos,"Preocupaciones relacionadas con cámara, videos, información clínica, consentimiento o acceso a información."
+SUB-09,Privacidad,Acceso familiar autorizado,"Participación o acceso de familiares o terceros cuando exista autorización del paciente."
+SUB-10,Seguridad clínica,Seguridad y señales de alarma,"Riesgo relacionado con dolor, caídas, sobreesfuerzo, ejecución incorrecta o necesidad de detener o modificar un ejercicio."
+SUB-11,Comprensión,Accesibilidad y facilidad de uso,"Necesidad de interfaces, letras, botones, imágenes o audio adecuados para facilitar el uso."
+SUB-12,Seguimiento,Organización centralizada,"Necesidad de mantener rutinas, instrucciones, videos, registros y seguimiento organizados en un mismo medio."
