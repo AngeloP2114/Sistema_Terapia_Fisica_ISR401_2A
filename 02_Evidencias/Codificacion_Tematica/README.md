@@ -25,9 +25,10 @@ Para el análisis principal se consideran las siguientes entrevistas:
 - EVA2-PAC-10
 - EVA2-PAC-11
 - EVA2-PAC-13
+-  EVA2-PAC-14
+- EVA2-PAC-15
+- EVA2-PAC-16
 
-EVA2-PAC-12 y EVA2-PAC-14 no se contabilizan como entrevistas porque las
-evidencias disponibles corresponden a sesiones walkthrough.
 
 Las entrevistas y walkthrough técnicos se utilizan como evidencia
 complementaria para triangulación, sin contarlos artificialmente como nuevos
