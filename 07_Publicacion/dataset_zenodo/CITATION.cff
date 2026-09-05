@@ -1,17 +1,38 @@
 cff-version: 1.2.0
-title: "Dataset anonimizado del proyecto SICST"
-message: "Cite este conjunto de datos y el repositorio del proyecto."
+message: "Si utiliza este conjunto de datos, cite este depósito."
+title: "SICST — Dataset reproducible del Sistema Inteligente de Control y Seguimiento de Terapia Física"
 type: dataset
+version: "1.0"
+date-released: "2026-09-05"
+
 authors:
-  - family-names: "Morán Pilaguano"
-    given-names: "Frixon Fernando"
   - family-names: "Contreras Chávez"
     given-names: "Kevin Germán"
-  - family-names: "Viteri García"
-    given-names: "Jonathan Enrique"
+    affiliation: "Universidad Técnica Estatal de Quevedo"
+
   - family-names: "Zambrano Moya"
     given-names: "Angelo Paul"
-version: "PE5-Final"
-date-released: "2026-08-24"
+    affiliation: "Universidad Técnica Estatal de Quevedo"
+    orcid: "https://orcid.org/0009-0006-0056-8482"
+
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.22315298"
+
 repository-code: "https://github.com/AngeloP2114/Sistema_Terapia_Fisica_ISR401_2A"
-license: "CC-BY-4.0"
+
+url: "https://doi.org/10.5281/zenodo.22315298"
+
+abstract: >-
+  Conjunto de datos reproducible del proyecto académico Sistema Inteligente
+  de Control y Seguimiento de Terapia Física (SICST), publicado en Zenodo
+  como versión 1.0. Incluye datos, resultados derivados, documentación,
+  verificaciones SHA-256 y materiales para reproducibilidad.
+
+keywords:
+  - "SICST"
+  - "terapia física"
+  - "ingeniería de requisitos"
+  - "datos de investigación"
+  - "reproducibilidad"
+  - "UTEQ"
