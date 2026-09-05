@@ -3,14 +3,17 @@ message: "Si utiliza este repositorio académico, cite este trabajo."
 title: "Sistema Inteligente de Control y Seguimiento de Terapia Física"
 type: software
 version: "2.0"
-date-released: "2026-09-01"
+date-released: "2026-09-05"
 
 authors:
   - family-names: "Contreras Chávez"
     given-names: "Kevin Germán"
+    affiliation: "Universidad Técnica Estatal de Quevedo"
 
   - family-names: "Zambrano Moya"
     given-names: "Angelo Paul"
+    affiliation: "Universidad Técnica Estatal de Quevedo"
+    orcid: "https://orcid.org/0009-0006-0056-8482"
 
 repository-code: "https://github.com/AngeloP2114/Sistema_Terapia_Fisica_ISR401_2A"
 
@@ -23,10 +26,10 @@ abstract: >-
   desarrollado como proyecto académico de Ingeniería de Requerimientos.
   El repositorio integra la especificación ERS/SRS, evidencias de trabajo
   de campo, modelado, trazabilidad, producto mínimo viable, protocolo
-  experimental, preparación para publicación académica, documentación
-  ética y materiales de defensa. El sistema se plantea como herramienta
-  de apoyo al seguimiento terapéutico y no sustituye la valoración,
-  diagnóstico ni decisión del profesional de salud.
+  experimental, datos reproducibles, documentación ética y materiales
+  de defensa. El sistema se plantea como herramienta de apoyo al
+  seguimiento terapéutico y no sustituye la valoración, diagnóstico
+  ni decisión del profesional de salud.
 
 keywords:
   - "Ingeniería de Requerimientos"
@@ -39,4 +42,13 @@ keywords:
   - "Inteligencia Artificial"
   - "Elicitación de Requisitos"
   - "Validación de Requisitos"
+  - "Reproducibilidad"
   - "Ingeniería de Software"
+
+references:
+  - type: dataset
+    title: "SICST — Dataset reproducible del Sistema Inteligente de Control y Seguimiento de Terapia Física"
+    doi: "10.5281/zenodo.22315298"
+    url: "https://doi.org/10.5281/zenodo.22315298"
+    version: "1.0"
+    date-released: "2026-09-05"
