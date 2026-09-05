@@ -1,40 +1,62 @@
-# Dataset anonimizado SICST — preparación PE5
+# Dataset reproducible SICST — Zenodo v1.0
 
 ## Descripción
 
-Paquete preparado para la publicación académica del **Sistema Inteligente de Control y Seguimiento de Terapia Física (SICST)**. Reúne datos anonimizados y derivados, una copia sincronizada de la matriz de trazabilidad final y materiales reproducibles de análisis.
+Este archivo documenta el conjunto de datos reproducible del proyecto
+**Sistema Inteligente de Control y Seguimiento de Terapia Física (SICST)**.
 
-Este directorio representa una **preparación para depósito**; no implica por sí mismo que exista un depósito publicado en Zenodo ni un DOI asignado.
+## Autores
 
-## Contenido principal
+- Contreras Chávez Kevin Germán
+- Zambrano Moya Angelo Paul
 
-- `respuestas_cuestionario_anonimizadas.csv`: 31 respuestas válidas utilizadas en el análisis.
-- `resumen_perfiles.csv`: distribución de 20 pacientes o expacientes, 8 familiares o cuidadores y 3 fisioterapeutas.
-- `diccionario_datos.csv`: descripción de variables.
-- `Matriz_Trazabilidad_Final_PE5_Rubrica.csv`: copia sincronizada de la matriz canónica PE5.
-- `catalogo_transcripciones_anonimizado.csv`: catálogo anonimizado; los materiales identificables no forman parte del paquete público.
-- `figura_distribucion_perfiles.png`: figura derivada del conjunto anonimizado.
-- `LICENSE.txt`: información de licencia del material preparado.
-- `CITATION.cff`: metadatos de citación del paquete.
+## Publicación
 
-## Matriz canónica
+- DOI: `10.5281/zenodo.22315298`
+- URL DOI: `https://doi.org/10.5281/zenodo.22315298`
+- Zenodo: `https://zenodo.org/records/22315298`
+- Versión: `1.0`
+- Fecha de publicación: `2026-09-05`
+- Acceso: Público / Open
 
-La fuente de verdad de trazabilidad del repositorio se encuentra en:
+## Tamaño del conjunto
 
-`../../04_Trazabilidad/Matriz_Trazabilidad_Final_PE5_Rubrica.csv`
+El conjunto reproducible actual contiene **79 respuestas codificadas**:
 
-La copia incluida aquí debe mantenerse sincronizada con esa versión. La línea base final documenta **58 enlaces de trazabilidad**.
+- 62 pacientes o ex pacientes de terapia física;
+- 14 familiares o cuidadores;
+- 3 fisioterapeutas.
 
-La priorización oficial de requisitos se mantiene en:
+## Fuente reproducible
 
-`../../04_Trazabilidad/priorizacion_moscow_kano.csv`
+La versión vigente de los datos y scripts se encuentra en:
 
-No se duplica en este paquete para evitar versiones desactualizadas o contradictorias.
+`../../07_Datos/`
+
+## Reproducción
+
+Desde la raíz del repositorio ejecutar:
+
+`python 07_Datos/scripts/orquestar.py`
+
+## Integridad
+
+Los hashes SHA-256 se encuentran en:
+
+`../../07_Datos/checksums_datos.sha256`
 
 ## Privacidad
 
-No se incluyen nombres completos, cédulas, teléfonos, firmas, rostros, voces ni consentimientos identificables. Los originales sensibles deben permanecer bajo acceso restringido.
+No se incluyen nombres completos, cédulas, teléfonos, firmas ni consentimientos firmados.
 
-## Repositorio
+Los códigos de participante se mantienen únicamente para trazabilidad académica y no deben utilizarse para intentar identificar o reidentificar personas.
 
-https://github.com/AngeloP2114/Sistema_Terapia_Fisica_ISR401_2A
+## Citación
+
+Consultar:
+
+`CITATION.cff`
+
+## Repositorio fuente
+
+`https://github.com/AngeloP2114/Sistema_Terapia_Fisica_ISR401_2A`
