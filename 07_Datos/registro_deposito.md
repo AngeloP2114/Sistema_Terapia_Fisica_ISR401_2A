@@ -1,6 +1,7 @@
 # Registro de depósito persistente — SICST
 
 ## Proyecto
+
 Sistema Inteligente de Control y Seguimiento de Terapia Física (SICST)
 
 ## Autores
@@ -16,26 +17,25 @@ ISR-401 Ingeniería de Requisitos
 
 ## Estado del depósito
 
-El depósito persistente del paquete reproducible se encuentra pendiente de publicación final.
+El paquete reproducible SICST fue publicado en Zenodo.
 
-No se registra ningún DOI, identificador Zenodo, OSF u otro identificador persistente hasta que exista un depósito real y verificable.
+## Información del depósito
+
+- Plataforma de depósito: Zenodo
+- DOI: `10.5281/zenodo.22315298`
+- Versión: `1.0`
+- Fecha de publicación: `2026-09-05`
+- URL pública: `https://zenodo.org/records/22315298`
+- URL DOI: `https://doi.org/10.5281/zenodo.22315298`
+- Estado: Publicado
+- Acceso: Público / Open
 
 ## Repositorio fuente
 
-GitHub:
-
 `https://github.com/AngeloP2114/Sistema_Terapia_Fisica_ISR401_2A`
-
-## Información a completar después del depósito
-
-- Plataforma de depósito:
-- Identificador persistente:
-- DOI:
-- Fecha de publicación:
-- Versión:
-- URL pública:
-- Fecha de última verificación:
 
 ## Nota de trazabilidad
 
-El identificador persistente será incorporado únicamente después de verificar que el depósito contiene la versión correspondiente al paquete reproducible almacenado en `07_Datos/`.
+El DOI identifica la versión 1.0 del paquete reproducible del proyecto SICST publicado en Zenodo.
+
+El depósito contiene los archivos de datos, documentación, script de reproducción, resultados derivados y metadatos correspondientes a la versión publicada.
