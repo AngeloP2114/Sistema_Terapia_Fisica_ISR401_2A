@@ -1,0 +1,72 @@
+LICENCIA Y CONDICIONES DE USO DE DATOS — SICST
+
+Proyecto:
+Sistema Inteligente de Control y Seguimiento de Terapia Física (SICST)
+
+Institución:
+Universidad Técnica Estatal de Quevedo (UTEQ)
+Carrera de Ingeniería de Software
+Asignatura ISR-401 Ingeniería de Requisitos
+
+Año: 2026
+
+AUTORES DEL PROYECTO
+
+- Contreras Chávez Kevin Germán
+- Zambrano Moya Angelo Paul
+
+ALCANCE
+
+Este archivo establece las condiciones de uso del paquete reproducible
+contenido en la carpeta 07_Datos.
+
+1. DATOS CRUDOS
+
+Los datos ubicados en datos_crudos/ corresponden a información recopilada
+durante el proyecto académico SICST.
+
+Su disponibilidad dentro del repositorio tiene fines de revisión,
+trazabilidad, auditoría académica y reproducibilidad del trabajo.
+
+No se autoriza utilizar estos datos para intentar identificar o
+reidentificar a los participantes.
+
+2. DATOS PROCESADOS Y RESULTADOS
+
+Los archivos generados en datos_procesados/ y resultados/ pueden utilizarse
+con fines académicos, educativos, científicos y de verificación, siempre que
+se reconozca adecuadamente al proyecto SICST y a sus autores.
+
+3. PRIVACIDAD
+
+No deben utilizarse los datos del paquete para:
+
+- intentar identificar a participantes;
+- vincular códigos con identidades reales;
+- elaborar perfiles individuales fuera del propósito académico del proyecto;
+- publicar nombres, cédulas, teléfonos, firmas u otros identificadores directos.
+
+4. REPRODUCIBILIDAD
+
+Los resultados derivados deberán obtenerse mediante los scripts versionados
+incluidos en 07_Datos/scripts/.
+
+Las modificaciones realizadas por terceros deben indicarse claramente y no
+presentarse como resultados originales del equipo SICST.
+
+5. ATRIBUCIÓN
+
+Cuando se utilicen datos derivados, resultados o documentación del paquete,
+debe citarse el proyecto:
+
+Sistema Inteligente de Control y Seguimiento de Terapia Física (SICST),
+Universidad Técnica Estatal de Quevedo, 2026.
+
+6. RESPONSABILIDAD
+
+Los datos se proporcionan con fines académicos y de investigación, sin
+garantía expresa o implícita de adecuación para usos clínicos, diagnósticos
+o asistenciales.
+
+El sistema y los datos del proyecto no sustituyen la evaluación,
+prescripción ni supervisión de profesionales de la salud.
