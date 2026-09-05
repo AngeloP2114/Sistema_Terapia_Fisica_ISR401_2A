@@ -1,0 +1,32 @@
+name: Generar checksums SHA256
+
+on:
+  workflow_dispatch:
+
+jobs:
+  checksums:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Descargar repositorio
+        uses: actions/checkout@v4
+
+      - name: Generar checksums reales
+        run: |
+          echo "# SHA-256 de evidencia publica del proyecto SICST" > checksums.sha256
+          echo "# Se excluye 02_Evidencias/00_Restringido porque el contenedor esta gestionado mediante Git LFS." >> checksums.sha256
+          find 02_Evidencias -type f \
+            ! -path "02_Evidencias/00_Restringido/*" \
+            -print0 | sort -z | xargs -0 sha256sum >> checksums.sha256
+
+      - name: Verificar checksums
+        run: sha256sum -c checksums.sha256
+
+      - name: Mostrar resultado
+        run: cat checksums.sha256
+
+      - name: Guardar archivo
+        uses: actions/upload-artifact@v4
+        with:
+          name: checksums-sicst
+          path: checksums.sha256
