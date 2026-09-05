@@ -390,30 +390,37 @@ La publicación académica final deberá conservar coherencia con la evidencia, 
 
 ---
 
-## Dataset preparado para depósito
+## Dataset publicado en Zenodo
 
 La carpeta:
 
 `07_Publicacion/dataset_zenodo/`
 
-contiene material preparado para un eventual depósito académico.
+contiene documentación y materiales relacionados con la publicación del conjunto de datos reproducible del proyecto SICST.
 
-Puede incluir:
+La versión vigente del paquete reproducible se encuentra en:
 
-- metadatos;
-- licencia;
-- archivos anonimizados;
-- diccionario de datos;
-- matriz;
-- archivos de citación;
-- README del dataset.
+`07_Datos/`
 
-La existencia de esta carpeta **no significa que exista actualmente un DOI publicado en Zenodo**.
+El conjunto actual contiene **79 respuestas codificadas**:
 
-El DOI deberá incorporarse únicamente cuando se haya realizado un depósito real y definitivo.
+- 62 pacientes o ex pacientes de terapia física;
+- 14 familiares o cuidadores;
+- 3 fisioterapeutas.
 
-De igual manera, identificadores como OSF o SWHID únicamente deben registrarse cuando existan realmente.
+El paquete fue publicado en Zenodo como versión 1.0.
 
+- **DOI:** `10.5281/zenodo.22315298`
+- **URL DOI:** `https://doi.org/10.5281/zenodo.22315298`
+- **Zenodo:** `https://zenodo.org/records/22315298`
+- **Fecha de publicación:** `2026-09-05`
+- **Acceso:** Público / Open
+
+La reproducción de los resultados se realiza desde la raíz del repositorio mediante:
+
+`python 07_Datos/scripts/orquestar.py`
+
+Los identificadores persistentes se documentan únicamente cuando existen y han sido verificados.
 ---
 
 # 11. Ética
