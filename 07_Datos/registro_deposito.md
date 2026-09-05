@@ -1,7 +1,6 @@
 # Registro de depósito persistente — SICST
 
 ## Proyecto
-
 Sistema Inteligente de Control y Seguimiento de Terapia Física (SICST)
 
 ## Autores
