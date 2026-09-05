@@ -14,6 +14,18 @@ Repositorio de la **Entrega Final 2B** del Proyecto Integrador de la asignatura 
 - Zambrano Moya Angelo Paul
 
 ---
+## Publicación del dataset
+
+El paquete reproducible de datos del proyecto SICST se encuentra publicado en Zenodo.
+
+- **DOI:** `10.5281/zenodo.22315298`
+- **Zenodo:** https://zenodo.org/records/22315298
+- **Versión:** 1.0
+- **Fecha de publicación:** 2026-09-05
+- **Acceso:** Público / Open
+- **Reproducción:** `python 07_Datos/scripts/orquestar.py`
+
+El depósito contiene los datos y materiales necesarios para verificar y reproducir los resultados derivados del cuestionario del proyecto.
 
 # Descripción del proyecto
 
