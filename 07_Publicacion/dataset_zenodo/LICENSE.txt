@@ -1,5 +1,32 @@
-Creative Commons Attribution 4.0 International (CC BY 4.0)
+CONDICIONES DE USO DEL DATASET SICST — VERSIÓN 1.0
 
-El conjunto de datos anonimizado puede compartirse y adaptarse con atribución adecuada. Esta licencia no se aplica a consentimientos, firmas, rostros, voces ni otros datos identificables, los cuales no forman parte del paquete público.
+Proyecto:
+Sistema Inteligente de Control y Seguimiento de Terapia Física (SICST)
 
-Texto de la licencia: https://creativecommons.org/licenses/by/4.0/
+Autores:
+- Contreras Chávez Kevin Germán
+- Zambrano Moya Angelo Paul
+
+Institución:
+Universidad Técnica Estatal de Quevedo (UTEQ)
+
+DOI:
+10.5281/zenodo.22315298
+
+El conjunto de datos y los resultados derivados pueden utilizarse con fines
+académicos, educativos, científicos y de verificación, siempre que se
+reconozca adecuadamente al proyecto SICST y a sus autores.
+
+No se autoriza:
+
+- intentar identificar o reidentificar participantes;
+- vincular códigos del estudio con identidades reales;
+- publicar nombres, cédulas, teléfonos, firmas u otros identificadores directos;
+- presentar modificaciones de terceros como resultados originales del proyecto.
+
+Las condiciones completas del paquete reproducible se encuentran en:
+
+07_Datos/LICENSE-DATA.txt
+
+Los datos no deben utilizarse con fines clínicos, diagnósticos ni como
+sustitución de la evaluación de profesionales de la salud.
