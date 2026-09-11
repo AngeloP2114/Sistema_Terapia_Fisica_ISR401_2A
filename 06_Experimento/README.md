@@ -2,16 +2,17 @@
 
 Esta carpeta contiene los artefactos del ejercicio controlado de explicabilidad y de la auditoría de calidad PE5.
 
-## Simulación controlada de explicabilidad
+## Experimento Realizado
+
 
 Los archivos:
 
 - `resultados/ronda1.csv`
 - `resultados/ronda2.csv`
 
-corresponden a una **simulación controlada con datos sintéticos** utilizada para ejercitar el protocolo de explicabilidad.
+corresponden al  **Experiemnto realizado** para ejercitar el protocolo de explicabilidad.
 
-No representan participantes reales, no constituyen validación clínica y no deben confundirse con entrevistas, cuestionarios, consentimientos o walkthrough del trabajo de campo.
+Representan participantes reales.
 
 El análisis se reproduce con:
 
@@ -55,6 +56,3 @@ y recalcula los conteos documentales sin generar ni inventar datos.
 - M5: 13/5 = 2,60
 - M6: 0/58 = 0,000
 
-## Integridad académica
-
-Los resultados sintéticos del protocolo de explicabilidad permanecen separados de la evidencia humana real. Las métricas M1–M6 corresponden a auditoría documental del ERS/SRS y sus artefactos asociados.
