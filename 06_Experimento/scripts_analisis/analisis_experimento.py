@@ -1,13 +1,11 @@
 import pandas as pd
+import matplotlib.pyplot as plt
 import os
 
-# Ruta del archivo de evaluación
 archivo = "../datos/evaluacion_experta.csv"
 
-# Leer datos
 df = pd.read_csv(archivo)
 
-# Columnas evaluadas
 criterios = [
     "claridad",
     "completitud",
@@ -16,23 +14,22 @@ criterios = [
     "consistencia"
 ]
 
-# Calcular porcentajes
 resultados = []
 
 for criterio in criterios:
     porcentaje = df[criterio].mean() * 100
-    
+
     resultados.append({
         "criterio": criterio,
-        "porcentaje_cumplimiento": round(porcentaje,2)
+        "porcentaje_cumplimiento": porcentaje
     })
 
 
-# Crear carpeta resultados si no existe
-os.makedirs("../resultados", exist_ok=True)
-
-# Guardar resultados
 resultado_df = pd.DataFrame(resultados)
+
+
+os.makedirs("../resultados/graficas", exist_ok=True)
+
 
 resultado_df.to_csv(
     "../resultados/metricas_resultados.csv",
@@ -40,5 +37,23 @@ resultado_df.to_csv(
 )
 
 
-print("Análisis terminado")
-print(resultado_df)
+plt.figure(figsize=(8,5))
+
+plt.bar(
+    resultado_df["criterio"],
+    resultado_df["porcentaje_cumplimiento"]
+)
+
+plt.xlabel("Criterios evaluados")
+plt.ylabel("Cumplimiento (%)")
+plt.title("Evaluación de calidad de requisitos SICST")
+
+plt.xticks(rotation=45)
+
+plt.tight_layout()
+
+plt.savefig(
+    "../resultados/graficas/cumplimiento_requisitos.png"
+)
+
+print("Resultados generados correctamente")
