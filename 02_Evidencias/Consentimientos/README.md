@@ -4,7 +4,7 @@ Esta carpeta contiene las **copias públicas y enmascaradas de los consentimient
 
 **Sistema Inteligente de Control y Seguimiento de Terapia Física (SICST)**
 
-Los archivos se identifican mediante códigos de participante para evitar utilizar nombres propios en la estructura pública del repositorio.
+Los archivos se identifican mediante códigos de participante para evitar utilizar nombres propios dentro de la estructura pública del repositorio.
 
 ---
 
@@ -36,75 +36,133 @@ La contraseña del contenedor cifrado no debe almacenarse en el repositorio púb
 
 Los participantes se identifican mediante códigos seudonimizados.
 
-### PAC — Paciente o ex paciente
+---
+
+## PAC — Paciente o ex paciente
 
 Ejemplo:
 
 `EV2-PAC-01`
 
-El prefijo `PAC` identifica participantes correspondientes al perfil de **paciente o ex paciente relacionado con terapia física o rehabilitación**.
+El prefijo `PAC` identifica participantes correspondientes al perfil de paciente o ex paciente relacionado con terapia física o rehabilitación.
 
-Ejemplos presentes en esta carpeta:
+Participantes presentes:
 
 - `EV2-PAC-01`
 - `EV2-PAC-03`
 - `EV2-PAC-04`
-- ...
-- `EV2-PAC-16`
+- `EV2-PAC-05`
+- `EV2-PAC-06`
+- `EV2-PAC-07`
+- `EV2-PAC-08`
+- `EV2-PAC-09`
 
-### TEC — Usuario técnico
+---
+
+## EFT — Estudiante de fisioterapia
 
 Ejemplo:
 
-`WALK-TEC-02`
+`EFT-01`
 
-El prefijo `TEC` se utiliza para participantes clasificados como **usuarios técnicos** dentro de las sesiones de validación walkthrough.
+El prefijo `EFT` identifica participantes correspondientes a estudiantes de fisioterapia que aportaron información relacionada con seguimiento, ejecución y necesidades del proceso terapéutico.
 
-Un usuario técnico corresponde a una persona cuyo perfil permite realizar una revisión del sistema desde una perspectiva técnica o especializada y que participa en una sesión identificada como walkthrough técnico.
+Participantes presentes:
 
-Los consentimientos correspondientes se almacenan en esta carpeta, mientras que las actas de la sesión se almacenan en:
+- `EFT-01`
+- `EFT-02`
+- `EFT-03`
 
-`../Validacion_Walkthrough/`
+---
 
-### NTEC — Usuario no técnico
+## FAM — Familiar o cuidador
+
+Ejemplo:
+
+`FAM-01`
+
+El prefijo `FAM` identifica participantes familiares o cuidadores relacionados con el acompañamiento del paciente durante el proceso de terapia física.
+
+Participantes presentes:
+
+- `FAM-01`
+- `FAM-02`
+- `FAM-03`
+- `FAM-04`
+
+---
+
+## FIS — Profesional de fisioterapia
+
+Ejemplo:
+
+`FIS-01`
+
+El prefijo `FIS` identifica al profesional de fisioterapia participante en la investigación.
+
+Participante presente:
+
+- `FIS-01`
+
+---
+
+## NTEC — Usuario no técnico
 
 Ejemplo:
 
 `WALK-NTEC-01`
 
-El prefijo `NTEC` se utiliza para participantes clasificados como **usuarios no técnicos** dentro de las sesiones de validación walkthrough.
+El prefijo `NTEC` se utiliza para participantes clasificados como usuarios no técnicos dentro de las sesiones de validación walkthrough.
 
-Un usuario no técnico participa en la validación desde la perspectiva de uso, comprensión, necesidades y funcionamiento esperado del sistema, sin que la sesión se clasifique como una revisión técnica.
+Un usuario no técnico participa en la validación desde la perspectiva de uso, comprensión, necesidades y funcionamiento esperado del sistema.
 
-Al igual que con los participantes técnicos, el consentimiento se conserva en esta carpeta y el acta correspondiente se encuentra en:
+Participante presente:
 
-`../Validacion_Walkthrough/`
+- `WALK-NTEC-01`
 
 ---
 
-## Diferencia entre TEC y NTEC
+## TEC — Usuario técnico
 
-La clasificación se utiliza principalmente para organizar las sesiones de validación.
+Ejemplo:
 
-| Código | Perfil | Finalidad dentro del walkthrough |
+`WALK-TEC-01`
+
+El prefijo `TEC` se utiliza para participantes clasificados como usuarios técnicos dentro de las sesiones de validación walkthrough.
+
+Un usuario técnico corresponde a una persona cuyo perfil permite realizar una revisión del sistema desde una perspectiva técnica o especializada.
+
+Participante presente:
+
+- `WALK-TEC-01`
+
+---
+
+## Diferencia entre perfiles
+
+| Código | Perfil | Finalidad |
 |---|---|---|
-| `PAC` | Paciente o ex paciente | Aporta necesidades y experiencia relacionada con el seguimiento de terapia física. |
-| `TEC` | Usuario técnico | Participa en una validación clasificada como técnica. |
-| `NTEC` | Usuario no técnico | Participa en una validación clasificada como no técnica y orientada al uso/comprensión del sistema. |
-
-Esta clasificación permite distinguir los perfiles utilizados en las evidencias sin publicar el nombre real de las personas participantes.
+| PAC | Paciente o ex paciente | Aporta necesidades y experiencia relacionada con el seguimiento de terapia física. |
+| EFT | Estudiante de fisioterapia | Aporta perspectiva académica y del proceso terapéutico. |
+| FAM | Familiar o cuidador | Aporta necesidades relacionadas con acompañamiento y apoyo. |
+| FIS | Profesional de fisioterapia | Aporta validación clínica y profesional. |
+| TEC | Usuario técnico | Participa en validaciones desde una perspectiva técnica. |
+| NTEC | Usuario no técnico | Participa en validaciones orientadas al uso y comprensión del sistema. |
 
 ---
 
 ## Estado actual de los consentimientos públicos
 
-Al momento de esta versión del repositorio se encuentran documentados **18 participantes distintos**:
+Actualmente se encuentran documentados **18 participantes distintos**:
 
-- **15 participantes PAC**
+- **8 participantes PAC**
+- **3 participantes EFT**
+- **4 participantes FAM**
+- **1 participante FIS**
 - **1 participante NTEC**
-- **2 participantes TEC**
+- **1 participante TEC**
 
-Los códigos públicos actualmente disponibles son:
+Los códigos públicos disponibles son:
 
 ### PAC
 
@@ -116,13 +174,23 @@ Los códigos públicos actualmente disponibles son:
 - `EV2-PAC-07`
 - `EV2-PAC-08`
 - `EV2-PAC-09`
-- `EV2-PAC-10`
-- `EV2-PAC-11`
-- `EV2-PAC-12`
-- `EV2-PAC-13`
-- `EV2-PAC-14`
-- `EV2-PAC-15`
-- `EV2-PAC-16`
+
+### EFT
+
+- `EFT-01`
+- `EFT-02`
+- `EFT-03`
+
+### FAM
+
+- `FAM-01`
+- `FAM-02`
+- `FAM-03`
+- `FAM-04`
+
+### FIS
+
+- `FIS-01`
 
 ### NTEC
 
@@ -130,23 +198,17 @@ Los códigos públicos actualmente disponibles son:
 
 ### TEC
 
-- `WALK-TEC-02`
-- `WALK-TEC-03`
+- `WALK-TEC-01`
 
 ---
 
 ## Relación con las evidencias de validación
 
-Esta carpeta almacena únicamente los **consentimientos públicos enmascarados**.
+Esta carpeta almacena únicamente los consentimientos públicos enmascarados.
 
-Las actas correspondientes a las sesiones walkthrough deben almacenarse separadamente en:
+Las actas correspondientes a las sesiones walkthrough se almacenan separadamente en:
 
 `../Validacion_Walkthrough/`
-
-Por ejemplo:
-
-- consentimiento: `Consentimientos/WALK-TEC-02_Consentimiento_Firmado.jpg`
-- acta: `Validacion_Walkthrough/WALK-TEC-02_Acta_Walkthrough_Parte1.jpeg`
 
 Esta separación evita mezclar documentos de autorización con evidencias de ejecución de la técnica.
 
