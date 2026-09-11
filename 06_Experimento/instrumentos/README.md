@@ -1,19 +1,60 @@
-# Instrumentos del componente experimental
+# Instrumentos del experimento SICST
 
-Esta carpeta contiene los instrumentos utilizados para la segunda ronda de levantamiento, validación y análisis empírico del proyecto SICST.
+## Objetivo
 
-## Instrumentos esperados
+Definir los instrumentos utilizados para evaluar la calidad de los requisitos funcionales del Sistema Inteligente de Control y Seguimiento de Terapia Física (SICST).
 
-- guion_entrevista_fisioterapeuta_v2.pdf
-- guion_entrevista_paciente_v2.pdf
-- cuestionario_sicst_v2.pdf
-- plantilla_consentimiento_v2.pdf
-- plantilla_walkthrough_fisioterapeuta.pdf
-- plantilla_walkthrough_paciente.pdf
-- rubrica_validacion_explicabilidad.pdf
+## Instrumentos utilizados
 
-## Descripción
+### 1. Dataset de requisitos
 
-Los instrumentos permiten recolectar información de fisioterapeutas, pacientes y otros participantes relacionados con el seguimiento de terapia física.
+Archivo:
 
-Estos archivos respaldan la elicitación, validación y análisis de requisitos funcionales, no funcionales, legales y de explicabilidad del sistema.
+datos/requisitos_sicst.csv
+
+
+Contiene los requisitos funcionales extraídos del documento ERS/SRS del SICST.
+
+La unidad de análisis está conformada por los requisitos funcionales RF-01 hasta RF-33.
+
+---
+
+### 2. Matriz de evaluación experta
+
+Archivo:
+
+datos/evaluacion_experta.csv
+
+
+Contiene la evaluación individual de cada requisito según criterios de calidad.
+
+---
+
+### 3. Rúbrica de evaluación
+
+Archivo:
+
+rubrica_evaluacion_requisitos.md
+
+
+Define los criterios utilizados:
+
+- Claridad.
+- Completitud.
+- Verificabilidad.
+- Trazabilidad.
+- Consistencia.
+
+Cada criterio utiliza una escala binaria:
+
+- 1 = Cumple.
+- 0 = No cumple.
+
+---
+
+## Procedimiento de aplicación
+
+1. Se identificaron los requisitos funcionales del ERS/SRS SICST.
+2. Cada requisito fue evaluado mediante la rúbrica definida.
+3. Los resultados fueron almacenados en formato CSV.
+4. Los datos fueron procesados mediante scripts Python.
