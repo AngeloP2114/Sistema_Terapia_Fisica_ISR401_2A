@@ -56,3 +56,27 @@ y recalcula los conteos documentales sin generar ni inventar datos.
 - M5: 13/5 = 2,60
 - M6: 0/58 = 0,000
 
+# Flujo del experimento
+
+El experimento fue realizado mediante la evaluación de los requisitos funcionales del SICST.
+
+Proceso:
+
+1. Extracción de requisitos desde el documento ERS/SRS.
+2. Evaluación mediante rúbrica de calidad.
+3. Procesamiento automático mediante scripts.
+4. Generación de métricas y gráficas.
+
+## Datos utilizados
+
+Los datos de evaluación se encuentran en:
+
+datos/evaluacion_experta.csv
+
+resultados/metricas_resultados.csv
+
+La gráfica generada se encuentra en:
+
+resultados/graficas/cumplimiento_requisitos.png
+
+
