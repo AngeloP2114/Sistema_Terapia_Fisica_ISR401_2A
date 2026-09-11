@@ -1,7 +1,19 @@
-# Ejecución controlada del protocolo de explicabilidad
+# Resultados del experimento SICST
 
-Estos archivos corresponden a una **simulación controlada con datos sintéticos** utilizada para ejercitar el flujo metodológico del protocolo PE5. No representan respuestas de participantes reales y se mantienen separados de entrevistas, consentimientos, cuestionarios y walkthrough del trabajo de campo.
+Los resultados fueron obtenidos mediante la evaluación de los requisitos funcionales del sistema SICST utilizando la rúbrica definida.
 
-- `ronda1.csv`: seis perfiles, Q01-Q11 Likert 1-5 y Q12 comentario abierto.
-- `ronda2.csv`: seis perfiles después del refinamiento de la explicación.
-- `analizar_explicabilidad.py`: reproduce medias e indicadores reportados en el informe.
+Los criterios evaluados fueron:
+
+- Claridad
+- Completitud
+- Verificabilidad
+- Trazabilidad
+- Consistencia
+
+Las métricas fueron generadas automáticamente mediante el script:
+
+scripts_analisis/analisis_experimento.py
+
+El archivo generado contiene los porcentajes de cumplimiento por criterio.
+
+
