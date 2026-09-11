@@ -1,17 +1,33 @@
 # Codificación temática — SICST
 
-Esta carpeta contiene el análisis cualitativo realizado sobre las entrevistas
-reales de pacientes y expacientes del proyecto SICST.
+Esta carpeta contiene el análisis cualitativo realizado sobre las entrevistas del proyecto **Sistema Inteligente de Control y Seguimiento de Terapia Física (SICST)**.
 
-## Objetivo
+La codificación temática permite identificar patrones, necesidades recurrentes, problemas del proceso actual de terapia física y elementos relevantes para la definición y validación de requisitos del sistema.
 
-Identificar los temas recurrentes relacionados con las necesidades de
-seguimiento de terapia física y documentar la evolución de los temas durante
-el análisis del corpus.
+---
 
-## Corpus de entrevistas
+# Objetivo
 
-Para el análisis principal se consideran las siguientes entrevistas:
+Identificar los temas recurrentes relacionados con:
+
+- seguimiento del proceso terapéutico;
+- comunicación entre pacientes y profesionales;
+- cumplimiento de ejercicios asignados;
+- registro y consulta de información clínica;
+- dificultades actuales del proceso de rehabilitación;
+- necesidades esperadas en una solución tecnológica de apoyo.
+
+Los resultados obtenidos sirven como evidencia para la trazabilidad entre las necesidades detectadas y los requisitos del sistema SICST.
+
+---
+
+# Corpus de entrevistas
+
+Para el análisis cualitativo principal se considera el corpus final conformado por **19 entrevistas anonimizadas**.
+
+La distribución del corpus es la siguiente:
+
+## Pacientes o expacientes de terapia física
 
 - EV2-PAC-01
 - EV2-PAC-03
@@ -21,47 +37,50 @@ Para el análisis principal se consideran las siguientes entrevistas:
 - EV2-PAC-07
 - EV2-PAC-08
 - EV2-PAC-09
-- EVA2-PAC-10
-- EVA2-PAC-11
-- EVA2-PAC-13
 
-EVA2-PAC-12 y EVA2-PAC-14 no se contabilizan como entrevistas porque las
-evidencias disponibles corresponden a sesiones walkthrough.
+## Estudiantes de fisioterapia
 
-Las entrevistas y walkthrough técnicos se utilizan como evidencia
-complementaria para triangulación, sin contarlos artificialmente como nuevos
-pacientes.
+- EFT-01
+- EFT-02
+- EFT-03
 
-## Método
+## Familiares o cuidadores
 
-La codificación utiliza categorías y subtemas derivados de las
-transcripciones reales.
+- FAM-01
+- FAM-02
+- FAM-03
+- FAM-04
+
+## Profesional de fisioterapia
+
+- FIS-01
+
+Adicionalmente se utilizaron dos sesiones walkthrough como evidencia complementaria:
+
+- WALK-NTEC-01
+- WALK-TEC-01
+
+Estas sesiones no se contabilizan como entrevistas independientes dentro del análisis de saturación, sino como evidencia de validación desde perfiles técnicos y no técnicos.
+
+---
+
+# Método de codificación
+
+La codificación fue realizada mediante categorías y subtemas derivados directamente de las transcripciones del corpus cualitativo.
 
 Cada código se registra mediante presencia o ausencia:
 
-- 1: existe evidencia suficiente del subtema en la entrevista.
-- 0: no se identificó evidencia suficiente para asignar el subtema.
+- **1:** existe evidencia suficiente del subtema dentro de la entrevista.
+- **0:** no se identificó evidencia suficiente para asignar el subtema.
 
-Un valor 0 no significa desacuerdo del participante.
+Un valor igual a 0 no representa desacuerdo del participante, sino ausencia de evidencia relacionada con el subtema evaluado.
 
-## Reproducibilidad
+---
 
-Esta carpeta se complementará con:
+# Artefactos de análisis
 
-- libro_codigos.csv
-- matriz_codificacion.csv
-- saturacion.csv
-- triangulacion.md
-- curva_saturacion.png
+Esta carpeta contiene los siguientes artefactos:
 
-Los datos procesados y los scripts reproducibles también se documentarán en
-la carpeta 07_Datos.
+## Libro de códigos
 
-## Integridad
-
-No se agregan entrevistas, participantes, respuestas ni resultados que no
-hayan ocurrido realmente.
-
-Cualquier cambio en las transcripciones o en la clasificación del corpus debe
-reflejarse posteriormente en la matriz de codificación y en el análisis de
-saturación.
+Archivo:
