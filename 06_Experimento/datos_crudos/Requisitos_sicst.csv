@@ -1,1 +1,34 @@
-
+id_requisito,tipo,nombre,descripcion,fuente
+RF-01,Funcional,Autenticar usuarios,El sistema permitirá la autenticación de usuarios mediante credenciales de acceso.,ERS/SRS SICST
+RF-02,Funcional,Gestionar roles y permisos,El sistema permitirá administrar roles y permisos de acceso según el tipo de usuario.,ERS/SRS SICST
+RF-03,Funcional,Registrar datos generales del paciente,El sistema permitirá registrar la información general del paciente para su identificación y seguimiento.,ERS/SRS SICST
+RF-04,Funcional,Registrar motivo de consulta,El sistema permitirá registrar el motivo de consulta asociado al paciente.,ERS/SRS SICST
+RF-05,Funcional,Registrar antecedentes terapéuticos,El sistema permitirá almacenar antecedentes relacionados con tratamientos anteriores del paciente.,ERS/SRS SICST
+RF-06,Funcional,Gestionar información clínica,El sistema permitirá registrar y consultar información clínica relacionada con el proceso terapéutico.,ERS/SRS SICST
+RF-07,Funcional,Registrar evaluaciones físicas,El sistema permitirá registrar evaluaciones físicas realizadas al paciente.,ERS/SRS SICST
+RF-08,Funcional,Consultar historial terapéutico,El sistema permitirá consultar el historial de tratamientos y evaluaciones del paciente.,ERS/SRS SICST
+RF-09,Funcional,Gestionar ejercicios terapéuticos,El sistema permitirá administrar ejercicios utilizados dentro del tratamiento físico.,ERS/SRS SICST
+RF-10,Funcional,Asignar ejercicios al paciente,El sistema permitirá asignar ejercicios terapéuticos personalizados al paciente.,ERS/SRS SICST
+RF-11,Funcional,Registrar sesiones terapéuticas,El sistema permitirá registrar las sesiones realizadas durante el tratamiento.,ERS/SRS SICST
+RF-12,Funcional,Controlar avance del paciente,El sistema permitirá realizar seguimiento del progreso del paciente durante la terapia.,ERS/SRS SICST
+RF-13,Funcional,Registrar observaciones del fisioterapeuta,El sistema permitirá almacenar observaciones realizadas por el profesional durante las sesiones.,ERS/SRS SICST
+RF-14,Funcional,Consultar progreso terapéutico,El sistema permitirá visualizar el progreso obtenido por el paciente.,ERS/SRS SICST
+RF-15,Funcional,Crear plan terapéutico personalizado,El sistema permitirá crear planes terapéuticos adaptados a las necesidades del paciente.,ERS/SRS SICST
+RF-16,Funcional,Modificar plan terapéutico,El sistema permitirá actualizar los planes terapéuticos existentes.,ERS/SRS SICST
+RF-17,Funcional,Gestionar objetivos terapéuticos,El sistema permitirá registrar objetivos asociados al tratamiento del paciente.,ERS/SRS SICST
+RF-18,Funcional,Generar recomendaciones terapéuticas,El sistema permitirá generar recomendaciones relacionadas con el tratamiento.,ERS/SRS SICST
+RF-19,Funcional,Registrar cumplimiento de ejercicios,El sistema permitirá registrar el cumplimiento de las actividades asignadas al paciente.,ERS/SRS SICST
+RF-20,Funcional,Capturar movimiento con cámara,El sistema permitirá capturar información del movimiento del paciente mediante cámara.,ERS/SRS SICST
+RF-21,Funcional,Analizar movimiento del paciente,El sistema permitirá analizar los movimientos realizados durante los ejercicios terapéuticos.,ERS/SRS SICST
+RF-22,Funcional,Detectar errores de ejecución,El sistema permitirá identificar posibles errores durante la realización de ejercicios.,ERS/SRS SICST
+RF-23,Funcional,Registrar resultados del análisis,El sistema permitirá almacenar resultados obtenidos del análisis del movimiento.,ERS/SRS SICST
+RF-24,Funcional,Mostrar retroalimentación,El sistema permitirá mostrar información de retroalimentación al usuario.,ERS/SRS SICST
+RF-25,Funcional,Generar retroalimentación automática,El sistema permitirá generar retroalimentación automática basada en el análisis realizado.,ERS/SRS SICST
+RF-26,Funcional,Consultar métricas terapéuticas,El sistema permitirá consultar métricas relacionadas con el desempeño del paciente.,ERS/SRS SICST
+RF-27,Funcional,Generar alertas,El sistema permitirá generar alertas relacionadas con el seguimiento terapéutico.,ERS/SRS SICST
+RF-28,Funcional,Gestionar notificaciones,El sistema permitirá enviar notificaciones relacionadas con actividades terapéuticas.,ERS/SRS SICST
+RF-29,Funcional,Administrar información del sistema,El sistema permitirá gestionar información necesaria para su funcionamiento.,ERS/SRS SICST
+RF-30,Funcional,Generar reportes del tratamiento,El sistema permitirá generar reportes sobre el proceso terapéutico del paciente.,ERS/SRS SICST
+RF-31,Funcional,Exportar información,El sistema permitirá exportar información generada por el sistema.,ERS/SRS SICST
+RF-32,Funcional,Consultar estadísticas,El sistema permitirá visualizar estadísticas relacionadas con el seguimiento terapéutico.,ERS/SRS SICST
+RF-33,Funcional,Registrar auditoría del sistema,El sistema permitirá mantener registros de las operaciones realizadas.,ERS/SRS SICST
