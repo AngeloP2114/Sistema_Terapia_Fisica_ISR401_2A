@@ -74,6 +74,7 @@ Las transcripciones constituyen evidencia cualitativa del proyecto y son utiliza
 - trazabilidad entre evidencia obtenida y requisitos del software.
 
 La codificación temática derivada se encuentra en:
+
 02_Evidencias/Codificacion_Tematica/
 La doble codificación independiente y el cálculo del acuerdo entre codificadores se encuentran en:
 
